@@ -1,0 +1,88 @@
+//-output: index.html, pretty:false
+
+include site/_config.jade
+
++html5
+  +head(title, stylesheets, keywords, description)
+  body(ng-app="ud-app")  
+    
+    div(data-svg="site/img/urgencias-digitales.svg").ud.white.central#logo
+    div(data-svg="site/img/beatline.svg")#beatline
+    a(href="#")#aboutUs.ion-ios-help-empty
+    
+    a(href="#")#start.ion-ios-arrow-thin-right
+    
+    .sections(ng-controller="dataCtrl").not
+      section#two
+        .container
+          .col6.push3
+            h2 Tengo una urgencia digital.
+              small Requiero un:
+        .container
+          .col4.push4
+            button.btn.btnactive(ng-click="datos.need='programador'") PROGRAMADOR
+            button.btn.btnactive(ng-click="datos.need='diseñador'") DISEÑADOR
+            button.btn.btnactive(ng-click="datos.need='asesor'") ASESOR
+            button.btn.btnactive(ng-click="datos.need='otro'") OTRO
+        .container
+          .col2.push8
+            button.btn.next(ng-show="datos.need", data-hide="#two", data-next="#three") SEGUIR
+      section#three
+        .container
+          .col6.push3
+            h2 Sobre la urgencia.
+        .container
+          .col8.push2
+            input(type="text", placeholder="¿Qué tipo de proyecto es?", ng-model="datos.tipo")
+            label Sitio web, logotipo, interactivo, modelado 3D…
+            textarea(placeholder="Estado actual y características a desarrollar", ng-model="datos.status")
+            label Desde cero, al 50%, últimos detalles…
+        .container
+          .col2.push8
+            button.btn.next(ng-show="datos.tipo && datos.status", data-hide="#three", data="#fourth") SEGUIR
+  
+      section#fourth
+        .container
+          .col6.push3
+            h2 Sobre la urgencia.
+            p Si tienes  archivos  puedes subirlos a un servicio de almacenamiento para que los podamos revisar y así comprender de mejor maneja el proyecto. Después de subirlos pega la URL del archivo en el campo de abajo.
+        .container
+          .col8.push2
+            div.urlInput
+              input(type="text", placeholder="URL de archivo | Opcional", ng-model="datos.url")
+              .icons
+                a(href="http://filenurse.com/", target="_blank"): img(src="site/img/icon_filenurse.png", alt="Filenurse")
+                a(href="https://www.dropbox.com/", target="_blank"): img(src="site/img/icon_dropbox.png", alt="Dropbox")
+                a(href="https://mega.nz/", target="_blank"): img(src="site/img/icon_mega.png", alt="Mega")
+                a(href="https://www.wetransfer.com/", target="_blank"): img(src="site/img/icon_we.png", alt="WeTransfer")
+              input(type="text", placeholder="¿Cuándo se debe entregar?", ng-model="datos.when")
+        .container
+          .col2.push8
+            button.btn.next(ng-show="datos.when", data-hide="#fourth", data="#fifth") SEGUIR
+      section#fifth
+        .container
+          .col6.push3
+            h2 ¿Cómo te contactamos?.
+            p Nos comunicaremos en cuestión de horas con una solución para tu proyecto.
+        .container
+          .col8.push2
+            input(type="text", placeholder="Tu nombre", ng-model="datos.cliente.nombre")
+            input(type="email", placeholder="Correo electrónico", ng-model="datos.cliente.email")
+            input(type="text", placeholder="Telefono", ng-model="datos.cliente.telefono")
+            input(type="text", placeholder="Otro", ng-model="datos.cliente.otro")
+        .container
+          .col2.push8
+            button.btn.next.end(ng-show="datos.cliente.nombre && datos.cliente.email", data-hide="#fifth", data="#sixth") TERMINAR
+      
+      section#sixth
+        .container
+          .col6.push3
+            h2 Ahora nos pondremos en contacto
+            p Espera un momento en lo que revisamos tu proyecto y armamos una propuesta.
+            p Nuestro tiempo estimado de respuesta es de 1 hr.
+            p Ya que tengamos todo listo te haremos llegar la cotización de desarrollo, información importante y nuestros datos para realizar el pago.
+            
+                
+      | {{ datos | json }}
+
+    +scripts

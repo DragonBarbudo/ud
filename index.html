@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>URGENCIAS DIGITALES</title>
+    <meta name="description" content="Soluciones urgentes de diseño y programación.">
+    <meta name="keywords" content="urgencias digitales, busco diseñador, busco programador, urge programador, urge diseñador">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.1/css/swipebox.min.css">
+    <link rel="stylesheet" href="site/css/style.css">
+  </head>
+  <body ng-app="ud-app"> 
+    <div data-svg="site/img/urgencias-digitales.svg" id="logo" class="ud white central"></div>
+    <div data-svg="site/img/beatline.svg" id="beatline"></div><a href="#" id="aboutUs" class="ion-ios-help-empty"></a><a href="#" id="start" class="ion-ios-arrow-thin-right"></a>
+    <div ng-controller="dataCtrl" class="sections not">
+      <section id="two">
+        <div class="container">
+          <div class="col6 push3">
+            <h2>Tengo una urgencia digital.<small>Requiero un:</small></h2>
+          </div>
+        </div>
+        <div class="container">
+          <div class="col4 push4">
+            <button ng-click="datos.need='programador'" class="btn btnactive">PROGRAMADOR</button>
+            <button ng-click="datos.need='diseñador'" class="btn btnactive">DISEÑADOR</button>
+            <button ng-click="datos.need='asesor'" class="btn btnactive">ASESOR</button>
+            <button ng-click="datos.need='otro'" class="btn btnactive">OTRO</button>
+          </div>
+        </div>
+        <div class="container">
+          <div class="col2 push8">
+            <button ng-show="datos.need" data-hide="#two" data-next="#three" class="btn next">SEGUIR</button>
+          </div>
+        </div>
+      </section>
+      <section id="three">
+        <div class="container">
+          <div class="col6 push3">
+            <h2>Sobre la urgencia.</h2>
+          </div>
+        </div>
+        <div class="container">
+          <div class="col8 push2">
+            <input type="text" placeholder="¿Qué tipo de proyecto es?" ng-model="datos.tipo">
+            <label>Sitio web, logotipo, interactivo, modelado 3D…</label>
+            <textarea placeholder="Estado actual y características a desarrollar" ng-model="datos.status"></textarea>
+            <label>Desde cero, al 50%, últimos detalles…</label>
+          </div>
+        </div>
+        <div class="container">
+          <div class="col2 push8">
+            <button ng-show="datos.tipo &amp;&amp; datos.status" data-hide="#three" data="#fourth" class="btn next">SEGUIR</button>
+          </div>
+        </div>
+      </section>
+      <section id="fourth">
+        <div class="container">
+          <div class="col6 push3">
+            <h2>Sobre la urgencia.</h2>
+            <p>Si tienes  archivos  puedes subirlos a un servicio de almacenamiento para que los podamos revisar y así comprender de mejor maneja el proyecto. Después de subirlos pega la URL del archivo en el campo de abajo.</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="col8 push2">
+            <div class="urlInput">
+              <input type="text" placeholder="URL de archivo | Opcional" ng-model="datos.url">
+              <div class="icons"><a href="http://filenurse.com/" target="_blank"><img src="site/img/icon_filenurse.png" alt="Filenurse"></a><a href="https://www.dropbox.com/" target="_blank"><img src="site/img/icon_dropbox.png" alt="Dropbox"></a><a href="https://mega.nz/" target="_blank"><img src="site/img/icon_mega.png" alt="Mega"></a><a href="https://www.wetransfer.com/" target="_blank"><img src="site/img/icon_we.png" alt="WeTransfer"></a></div>
+              <input type="text" placeholder="¿Cuándo se debe entregar?" ng-model="datos.when">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="col2 push8">
+            <button ng-show="datos.when" data-hide="#fourth" data="#fifth" class="btn next">SEGUIR</button>
+          </div>
+        </div>
+      </section>
+      <section id="fifth">
+        <div class="container">
+          <div class="col6 push3">
+            <h2>¿Cómo te contactamos?.</h2>
+            <p>Nos comunicaremos en cuestión de horas con una solución para tu proyecto.</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="col8 push2">
+            <input type="text" placeholder="Tu nombre" ng-model="datos.cliente.nombre">
+            <input type="email" placeholder="Correo electrónico" ng-model="datos.cliente.email">
+            <input type="text" placeholder="Telefono" ng-model="datos.cliente.telefono">
+            <input type="text" placeholder="Otro" ng-model="datos.cliente.otro">
+          </div>
+        </div>
+        <div class="container">
+          <div class="col2 push8">
+            <button ng-show="datos.cliente.nombre &amp;&amp; datos.cliente.email" data-hide="#fifth" data="#sixth" class="btn next end">TERMINAR</button>
+          </div>
+        </div>
+      </section>
+      <section id="sixth">
+        <div class="container">
+          <div class="col6 push3">
+            <h2>Ahora nos pondremos en contacto</h2>
+            <p>Espera un momento en lo que revisamos tu proyecto y armamos una propuesta.</p>
+            <p>Nuestro tiempo estimado de respuesta es de 1 hr.</p>
+            <p>Ya que tengamos todo listo te haremos llegar la cotización de desarrollo, información importante y nuestros datos para realizar el pago.</p>
+          </div>
+        </div>
+      </section>{{ datos | json }}
+    </div>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.core.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.1/js/jquery.swipebox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/2.3.2/scrollReveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/7.0.2/js/smooth-scroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="site/js/drawsvg.js"></script>
+    <script src="site/js/script.js"></script>
+  </body>
+</html>

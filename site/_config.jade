@@ -1,0 +1,37 @@
+include ../dw/dw.jade
+
+- var domain = "index.html"
+
+//- METAS
+- var title = "URGENCIAS DIGITALES"
+- var keywords = "urgencias digitales, busco diseñador, busco programador, urge programador, urge diseñador"
+- var description = "Soluciones urgentes de diseño y programación."
+
+//- STYLESHEETS
+- var stylesheets = []
+- stylesheets.push('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css')
+- stylesheets.push('http://fonts.googleapis.com/css?family=Lato:300,400,700')
+- stylesheets.push('http://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css')
+- stylesheets.push('https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.1/css/swipebox.min.css')
+- stylesheets.push('site/css/style.css') //Main style
+
+//- JAVASCRIPTS
+- var javascripts = []
+- javascripts.push('http://cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.core.min.js')
+- javascripts.push('https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+- javascripts.push('http://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js')
+- javascripts.push('https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.1/js/jquery.swipebox.min.js')
+- javascripts.push('https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js')
+- javascripts.push('https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/2.3.2/scrollReveal.min.js')
+- javascripts.push('https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/7.0.2/js/smooth-scroll.min.js')
+- javascripts.push('https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js')
+- javascripts.push('https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js')
+- javascripts.push('site/js/drawsvg.js')
+- javascripts.push('site/js/script.js') //Main Js
+
+//- MENU
+- var menu = [] //- menu.push('PageName', 'Slug')
+- menu.push(['Inicio', 'index']) //[0]
+- menu.push(['Nosotros', 'nosotros']) //[1]
+- menu.push(['Servicios', 'servicios']) //[2]
+- menu.push(['Contacto', 'contacto']) //[3]

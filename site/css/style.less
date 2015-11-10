@@ -1,0 +1,186 @@
+//-out: style.css
+@import '../../dw/dw.less';
+@import '../../dw/docs.less';
+
+/* ################################ CONTAINER WIDTHS: */
+@containerWidth: 960px;
+@containerWidthTablet: 480px;
+/* ################################ COLORS */
+@b: #424041;
+@w: #f5f5f5;
+@g: #888;
+@main: #F74F4C;
+/* ################################ FONTS */
+.font{ font-family: 'Lato', sans-serif; }
+/* ################################ CLASSES */
+.btn{
+  display: block;
+  width: 100%;
+  font-size: 1.2em;
+  background: transparent;
+  color:@w;
+  border: 2px solid @w;
+  padding: 8px 15px;
+  text-decoration: none;
+  .border-radius(24px);
+  .box-sizing(border-box);
+  font-weight: 300;
+  margin: 20px 0;
+  &:hover, &.active{
+    background: @w;
+    color:@main;
+    .shake;
+    cursor: pointer;
+  }
+  &.small{
+    padding: 0 4px;
+  }
+  &.vbottom{
+    vertical-align: bottom;
+  }
+}
+/* ################################ GENERAL */
+body{
+  height: 100%;
+  .font;
+  background: @main;
+  .transition;
+  &.dark{
+    .transition;
+    background: @main/1.2;
+  }
+  &.light{
+    .transition;
+    background: @main*1.4;
+  }
+}
+
+.ud{
+  position: absolute;
+  .transition(.5s);
+  left: 2%;
+  top: 4%;
+  svg{width: 80px; height: 80px; .transition;}
+  #ud_TXT{
+    .transition;
+    .opacity(0);
+  }
+
+  &.white{
+    #ud_IMAGO{ fill:@w; }
+  }
+  &.central{
+    .transition;
+    svg{width: 170px; height: auto; .transition;}
+    left: 50%;
+    top: 50%;
+    margin: -100px 0 0 -85px;
+    .breath;
+    #ud_TXT{ .opacity(1); .transition; }
+    &:hover{ cursor: pointer; #ud_TXT{fill:@w;}}
+  }
+  &.started{
+
+  }
+}
+
+
+#beatline{
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  width: 200px;
+  overflow: hidden;
+  svg{
+    width: 200px;
+    path{
+      stroke-width: 3px;
+    }
+  }
+}
+
+#aboutUs{
+  display: block;
+  color:@b;
+  padding: 0 30px;
+  position: absolute;
+  right: 5px;bottom: 2px;
+  font-size: 4em;
+  &:hover{
+    .shake;
+    color:@w;
+  }
+}
+
+
+#start{
+  position: absolute;
+  right: 35px;
+  top: 44%;
+  color:@w;
+  font-size: 3em;
+  &:hover{
+    color:@b;
+  }
+}
+
+h2{
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.6em;
+  color:@w;
+  small{
+    display: block;
+    font-size: 0.8em;
+  }
+}
+
+input, textarea{
+  display: block;
+  width: 100%;
+  font-size: 1.2em;
+  background: @w;
+  color:@b;
+  border: 2px solid @w;
+  border-bottom: 2px solid @w/1.1;
+  padding: 8px 15px;
+  .border-radius(24px);
+  .box-sizing(border-box);
+  font-weight: 300;
+  margin: 20px 0;
+  resize: none;
+}
+textarea{ min-height: 80px; }
+label{
+  display: block;
+  color:@main/2;
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: -14px;
+}
+.sections{
+  .transition;
+  .opacity(1);
+  margin-left: 0;
+  &.not{ .opacity(0); margin-left: 100%; }
+
+  overflow: hidden;
+  height: 100%;
+  section{
+    height: 100%;
+    padding: 80px 0;
+  }
+}
+p{
+  color:@w;
+  margin: 30px 0;
+}
+
+.urlInput{
+  position: relative;
+  .icons{
+    position: absolute;
+    right: 10px; top: 10px;
+    a{margin: 5px;}
+  }
+}
