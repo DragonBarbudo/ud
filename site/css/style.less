@@ -103,7 +103,7 @@ body{
   display: block;
   color:@b;
   padding: 0 30px;
-  position: absolute;
+  position: fixed;
   right: 5px;bottom: 2px;
   font-size: 4em;
   &:hover{
@@ -195,7 +195,23 @@ p{
   height: 100%;
   background: @w;
   z-index: 10;
-  #logoInside{ margin: 200px auto;}
+  @media @tablet, @mobile{
+    position: relative;
+    height: auto;
+    .clearfix;
+  }
+  .thelogo{text-align: center;}
+  #logoInside{
+    margin: 200px auto;
+    @media @tablet{
+      margin: 20px auto;
+      svg{max-height: 100px;}
+    }
+    @media @mobile{
+      margin: 20px auto;
+      svg{max-height: 80px;}
+    }
+  }
   p{ color:@b;  font-weight: 300; }
   .red{ color:@main; }
   .small{ font-size: 0.8em;}
@@ -203,9 +219,18 @@ p{
   a{color:@main; font-weight: 700; text-decoration: none;}
   #listS{
     margin-top: 80px;
+
     position: relative;
     height: 400px;
     overflow: hidden;
+      @media @tablet{
+        margin-top: 40px;
+      }
+      @media @mobile{
+        height: 140px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
     &:before, &:after{
       content:"";
       position: absolute;
@@ -215,9 +240,13 @@ p{
     }
     &:before{ top: 0; .gradient(fade(@w,0), @w);  }
     &:after{ bottom: 0; .gradient(@w, fade(@w,0));}
+    @media @mobile{
+      &:before, &:after{ height: 20px;}
+    }
     #listscroll{
       height: 400px;
       overflow: hidden;
+      @media @mobile{height: 140px; }
       .listtech{
         color:@g;
         font-size: 1.1em;
@@ -228,6 +257,6 @@ p{
     }
   }
 
-  #closeaboutUs{color:@b; &:hover{color:@main;}}
+  #closeaboutUs{color:@b; z-index: 100; &:hover{color:@main;}}
 
 }

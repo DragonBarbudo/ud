@@ -1203,7 +1203,7 @@ body.light {
   display: block;
   color: #424041;
   padding: 0 30px;
-  position: absolute;
+  position: fixed;
   right: 5px;
   bottom: 2px;
   font-size: 4em;
@@ -1325,8 +1325,42 @@ p {
   background: #f5f5f5;
   z-index: 10;
 }
+@media only screen and (min-width: 481px) and (max-width: 959px), only screen and (max-width: 480px) {
+  #aboutusArea {
+    position: relative;
+    height: auto;
+    *zoom: 1;
+  }
+  #aboutusArea:before,
+  #aboutusArea:after {
+    content: "";
+    display: table;
+  }
+  #aboutusArea:after {
+    clear: both;
+  }
+}
+#aboutusArea .thelogo {
+  text-align: center;
+}
 #aboutusArea #logoInside {
   margin: 200px auto;
+}
+@media only screen and (min-width: 481px) and (max-width: 959px) {
+  #aboutusArea #logoInside {
+    margin: 20px auto;
+  }
+  #aboutusArea #logoInside svg {
+    max-height: 100px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #aboutusArea #logoInside {
+    margin: 20px auto;
+  }
+  #aboutusArea #logoInside svg {
+    max-height: 80px;
+  }
 }
 #aboutusArea p {
   color: #424041;
@@ -1351,6 +1385,18 @@ p {
   position: relative;
   height: 400px;
   overflow: hidden;
+}
+@media only screen and (min-width: 481px) and (max-width: 959px) {
+  #aboutusArea #listS {
+    margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #aboutusArea #listS {
+    height: 140px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
 }
 #aboutusArea #listS:before,
 #aboutusArea #listS:after {
@@ -1378,9 +1424,20 @@ p {
   background: -o-linear-gradient(rgba(245, 245, 245, 0), #f5f5f5);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(245, 245, 245, 0)', endColorstr='#f5f5f5', GradientType=0);
 }
+@media only screen and (max-width: 480px) {
+  #aboutusArea #listS:before,
+  #aboutusArea #listS:after {
+    height: 20px;
+  }
+}
 #aboutusArea #listS #listscroll {
   height: 400px;
   overflow: hidden;
+}
+@media only screen and (max-width: 480px) {
+  #aboutusArea #listS #listscroll {
+    height: 140px;
+  }
 }
 #aboutusArea #listS #listscroll .listtech {
   color: #888;
@@ -1391,6 +1448,7 @@ p {
 }
 #aboutusArea #closeaboutUs {
   color: #424041;
+  z-index: 100;
 }
 #aboutusArea #closeaboutUs:hover {
   color: #F74F4C;
