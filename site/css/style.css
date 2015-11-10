@@ -1198,7 +1198,8 @@ body.light {
 #beatline svg path {
   stroke-width: 3px;
 }
-#aboutUs {
+#aboutUs,
+#closeaboutUs {
   display: block;
   color: #424041;
   padding: 0 30px;
@@ -1207,7 +1208,8 @@ body.light {
   bottom: 2px;
   font-size: 4em;
 }
-#aboutUs:hover {
+#aboutUs:hover,
+#closeaboutUs:hover {
   -webkit-animation-name: shaking;
   -webkit-animation-duration: 0.8s;
   -webkit-transform-origin: 50% 50%;
@@ -1311,4 +1313,85 @@ p {
 }
 .urlInput .icons a {
   margin: 5px;
+}
+#aboutusArea {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: #f5f5f5;
+  z-index: 10;
+}
+#aboutusArea #logoInside {
+  margin: 200px auto;
+}
+#aboutusArea p {
+  color: #424041;
+  font-weight: 300;
+}
+#aboutusArea .red {
+  color: #F74F4C;
+}
+#aboutusArea .small {
+  font-size: 0.8em;
+}
+#aboutusArea .jump {
+  display: block;
+}
+#aboutusArea a {
+  color: #F74F4C;
+  font-weight: 700;
+  text-decoration: none;
+}
+#aboutusArea #listS {
+  margin-top: 80px;
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+#aboutusArea #listS:before,
+#aboutusArea #listS:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100px;
+}
+#aboutusArea #listS:before {
+  top: 0;
+  background: rgba(245, 245, 245, 0);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(245, 245, 245, 0)), color-stop(1, #f5f5f5));
+  background: -ms-linear-gradient(bottom, rgba(245, 245, 245, 0), #f5f5f5);
+  background: -moz-linear-gradient(center bottom, rgba(245, 245, 245, 0) 0%, #f5f5f5 100%);
+  background: -o-linear-gradient(#f5f5f5, rgba(245, 245, 245, 0));
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='rgba(245, 245, 245, 0)', GradientType=0);
+}
+#aboutusArea #listS:after {
+  bottom: 0;
+  background: #f5f5f5;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #f5f5f5), color-stop(1, rgba(245, 245, 245, 0)));
+  background: -ms-linear-gradient(bottom, #f5f5f5, rgba(245, 245, 245, 0));
+  background: -moz-linear-gradient(center bottom, #f5f5f5 0%, rgba(245, 245, 245, 0) 100%);
+  background: -o-linear-gradient(rgba(245, 245, 245, 0), #f5f5f5);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(245, 245, 245, 0)', endColorstr='#f5f5f5', GradientType=0);
+}
+#aboutusArea #listS #listscroll {
+  height: 400px;
+  overflow: hidden;
+}
+#aboutusArea #listS #listscroll .listtech {
+  color: #888;
+  font-size: 1.1em;
+  font-weight: 300;
+  list-style: none;
+  text-align: center;
+}
+#aboutusArea #closeaboutUs {
+  color: #424041;
+}
+#aboutusArea #closeaboutUs:hover {
+  color: #F74F4C;
 }

@@ -99,7 +99,7 @@ body{
   }
 }
 
-#aboutUs{
+#aboutUs, #closeaboutUs{
   display: block;
   color:@b;
   padding: 0 30px;
@@ -183,4 +183,51 @@ p{
     right: 10px; top: 10px;
     a{margin: 5px;}
   }
+}
+
+
+
+#aboutusArea{
+  display: none;
+  position: fixed;
+  top: 0; bottom: 0;
+  left: 0; right: 0;
+  height: 100%;
+  background: @w;
+  z-index: 10;
+  #logoInside{ margin: 200px auto;}
+  p{ color:@b;  font-weight: 300; }
+  .red{ color:@main; }
+  .small{ font-size: 0.8em;}
+  .jump{ display: block;}
+  a{color:@main; font-weight: 700; text-decoration: none;}
+  #listS{
+    margin-top: 80px;
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    &:before, &:after{
+      content:"";
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 100px;
+    }
+    &:before{ top: 0; .gradient(fade(@w,0), @w);  }
+    &:after{ bottom: 0; .gradient(@w, fade(@w,0));}
+    #listscroll{
+      height: 400px;
+      overflow: hidden;
+      .listtech{
+        color:@g;
+        font-size: 1.1em;
+        font-weight: 300;
+        list-style: none;
+        text-align: center;
+      }
+    }
+  }
+
+  #closeaboutUs{color:@b; &:hover{color:@main;}}
+
 }

@@ -127,6 +127,15 @@ $('#aboutUs').hover(function(){
   $('body').removeClass('light');
 });
 
+
+//aboutUs
+$('#aboutUs').click(function(){
+  $('#aboutusArea').slideDown();
+});
+$('#closeaboutUs').click(function(){
+  $('#aboutusArea').slideUp();
+});
+
 //START
 $('#start, .ud.central').click(function(){
   $('#start').fadeOut();
@@ -146,6 +155,15 @@ $('.next').click(function(){
   var hide = $(this).attr('data-hide');
   var next = $(this).attr('data-next');
   $(hide).slideUp();
+});
+
+
+$('#listscroll').scrollbox({
+  linear: true,
+  step: 1,
+  delay: 0,
+  speed: 20,
+  onMouseOverPause: false
 });
 
 
