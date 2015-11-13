@@ -153,6 +153,28 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/ext\/ud.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8823,
+		"inputAbbreviatedPath": "\/ext\/ud.png",
+		"outputAbbreviatedPath": "\/ext\/ud.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/ext\/ud_small.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1463,
+		"inputAbbreviatedPath": "\/ext\/ud_small.png",
+		"outputAbbreviatedPath": "\/ext\/ud_small.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
