@@ -153,6 +153,17 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/ext\/banner.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15152,
+		"inputAbbreviatedPath": "\/ext\/banner.png",
+		"outputAbbreviatedPath": "\/ext\/banner.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/ext\/ud.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -160,6 +171,17 @@
 		"initialSize": 8823,
 		"inputAbbreviatedPath": "\/ext\/ud.png",
 		"outputAbbreviatedPath": "\/ext\/ud.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/ext\/ud_big.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6297,
+		"inputAbbreviatedPath": "\/ext\/ud_big.png",
+		"outputAbbreviatedPath": "\/ext\/ud_big.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
