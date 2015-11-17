@@ -20,8 +20,9 @@
   </head>
   <body ng-app="ud-app"> 
     <div data-svg="site/img/urgencias-digitales.svg" id="logo" class="ud white central"></div>
-    <div data-svg="site/img/beatline.svg" id="beatline"></div><a href="#" id="aboutUs" class="ion-ios-help-empty"></a><a href="#" id="start" class="ion-ios-arrow-thin-right"></a>
-    <div id="aboutusArea"><a href="#" id="closeaboutUs" class="ion-ios-close-empty"></a>
+    <div data-svg="site/img/beatline.svg" id="beatline"></div>
+    <div id="navicons"><a href="#" id="aboutUs" class="ion-ios-help-empty"></a><a href="#" id="closeaboutUs" class="ion-ios-close-empty"></a></div><a href="#" id="start" class="ion-ios-arrow-thin-right"></a>
+    <div id="aboutusArea">
       <div class="container">
         <div class="col4 col-t12 col-m12 thelogo">
           <div data-svg="site/img/urgencias-digitales.svg" id="logoInside"></div>
@@ -30,7 +31,7 @@
           <p>Si necesitas un proyecto en un periodo de tiempo urgente o te quedó mal tu desarrollador y tienes un proyecto inconcluso no sufras más, <strong class="red">nosotros podemos auxiliarte</strong>.</p>
           <p>En <strong class="red">Urgencias Digitales</strong> podemos apoyarte con proyectos de <strong>programación</strong>, <strong>diseño</strong>, <strong>modelado 3D</strong>, <strong>desarrollo de interactivos</strong>, <strong>aplicaciones móviles</strong>, etc. Sólo es necesario que llenes el formulario principal del sitio y nos cuentes el estatus de tu proyecto. Nosotros nos pondremos en contacto en cuestión de horas (o minutos) para ofrecerte una solución inmediata.</p>
           <p>Si tu urgencia es mucha puedes buscarnos en los siguientes medios:</p>
-          <p><strong class="small">Correo electrónico</strong> <a class="jump" href="mailto:urge@urgenciasdigitales.com">urge@urgenciasdigitales.com</a><br><strong class="small">Móvil / Whatsapp</strong> <a class="jump" href="tel:5513484349">(55) 13 48-43 49</a></p>
+          <p><i class="ion-ios-email-outline"></i><strong class="small">Correo electrónico</strong><a href="mailto:urge@urgenciasdigitales.com" class="jump">urge@urgenciasdigitales.com</a><br><i class="ion-social-skype-outline"></i><strong class="small">Skype</strong></strong><a href="skype:urgenciasdigitales?chat" class="jump">urgenciasdigitales</a><br><i class="ion-social-whatsapp-outline"></i><strong class="small">WhatsApp</strong><a href="whatsapp://send?abid=5513484349&amp;text=Tengo una urgencia" class="jump">(55) 13 48-43 49</a></p>
         </div>
         <div class="col4 col-t4 col-m12">
           <div id="listS">
@@ -87,68 +88,68 @@
       </div>
     </div>
     <div ng-controller="dataCtrl" class="sections not">
-      <section id="two">
-        <div class="container">
-          <div class="col6 push3">
-            <h2>Tengo una urgencia digital.<small>Requiero un:</small></h2>
-          </div>
-        </div>
-        <div class="container">
-          <div class="col4 push4">
-            <button ng-click="datos.need='programador'" class="btn btnactive">PROGRAMADOR</button>
-            <button ng-click="datos.need='diseñador'" class="btn btnactive">DISEÑADOR</button>
-            <button ng-click="datos.need='asesor'" class="btn btnactive">ASESOR</button>
-            <button ng-click="datos.need='otro'" class="btn btnactive">OTRO</button>
-          </div>
-        </div>
-        <div class="container">
-          <div class="col2 push8">
-            <button ng-show="datos.need" data-hide="#two" data-next="#three" class="btn next">SEGUIR</button>
-          </div>
-        </div>
-      </section>
-      <section id="three">
-        <div class="container">
-          <div class="col6 push3">
-            <h2>Sobre la urgencia.</h2>
-          </div>
-        </div>
-        <div class="container">
-          <div class="col8 push2">
-            <input type="text" placeholder="¿Qué tipo de proyecto es?" ng-model="datos.tipo">
-            <label>Sitio web, logotipo, interactivo, modelado 3D…</label>
-            <textarea placeholder="Estado actual y características a desarrollar" ng-model="datos.status"></textarea>
-            <label>Desde cero, al 50%, últimos detalles…</label>
-          </div>
-        </div>
-        <div class="container">
-          <div class="col2 push8">
-            <button ng-show="datos.tipo &amp;&amp; datos.status" data-hide="#three" data="#fourth" class="btn next">SEGUIR</button>
-          </div>
-        </div>
-      </section>
-      <section id="fourth">
-        <div class="container">
-          <div class="col6 push3">
-            <h2>Sobre la urgencia.</h2>
-            <p>Si tienes  archivos  puedes subirlos a un servicio de almacenamiento para que los podamos revisar y así comprender de mejor maneja el proyecto. Después de subirlos pega la URL del archivo en el campo de abajo.</p>
-          </div>
-        </div>
-        <div class="container">
-          <div class="col8 push2">
-            <div class="urlInput">
-              <input type="text" placeholder="URL de archivo | Opcional" ng-model="datos.url">
-              <div class="icons"><a href="http://filenurse.com/" target="_blank"><img src="site/img/icon_filenurse.png" alt="Filenurse"></a><a href="https://www.dropbox.com/" target="_blank"><img src="site/img/icon_dropbox.png" alt="Dropbox"></a><a href="https://mega.nz/" target="_blank"><img src="site/img/icon_mega.png" alt="Mega"></a><a href="https://www.wetransfer.com/" target="_blank"><img src="site/img/icon_we.png" alt="WeTransfer"></a></div>
-              <input type="text" placeholder="¿Cuándo se debe entregar?" ng-model="datos.when">
+        <section id="two">
+          <div class="container">
+            <div class="col6 push3 col-t8 push-t2">
+              <h2>Tengo una urgencia digital<small>Requiero un:</small></h2>
             </div>
           </div>
-        </div>
-        <div class="container">
-          <div class="col2 push8">
-            <button ng-show="datos.when" data-hide="#fourth" data="#fifth" class="btn next">SEGUIR</button>
+          <div class="container">
+            <div class="col4 push4 col-t8 push-t2">
+              <button ng-click="datos.need='programador'" class="btn btnactive">PROGRAMADOR</button>
+              <button ng-click="datos.need='diseñador'" class="btn btnactive">DISEÑADOR</button>
+              <button ng-click="datos.need='asesor'" class="btn btnactive">ASESOR</button>
+              <button ng-click="datos.need='otro'" class="btn btnactive">OTRO</button>
+            </div>
           </div>
-        </div>
-      </section>
+          <div class="container">
+            <div class="col2 push8 col-t4 push-t8">
+              <button ng-show="datos.need" data-hide="#two" data-next="#three" class="btn next">SEGUIR    </button>
+            </div>
+          </div>
+        </section>
+        <section id="three">
+          <div class="container">
+            <div class="col6 push3 col-t8 push-t2">
+              <h2>Sobre la urgencia.</h2>
+            </div>
+          </div>
+          <div class="container">
+            <div class="col4 push4 col-t8 push-t2">
+              <input type="text" placeholder="¿Qué tipo de proyecto es?" ng-model="datos.tipo">
+              <label>Sitio web, logotipo, interactivo, modelado 3D…</label>
+              <textarea placeholder="Estado actual y características a desarrollar" ng-model="datos.status"></textarea>
+              <label>Desde cero, al 50%, últimos detalles…</label>
+            </div>
+          </div>
+          <div class="container">
+            <div class="col2 push8 col-t4 push-t8">
+              <button ng-show="datos.tipo &amp;&amp; datos.status" data-hide="#three" data-next="#fourth" class="btn next">SEGUIR    </button>
+            </div>
+          </div>
+        </section>
+        <section id="fourth">
+          <div class="container">
+            <div class="col6 push3 col-t8 push-t2">
+              <h2>¿Qué hay y cuándo se entrega?</h2>
+              <p>Si tienes  archivos  puedes subirlos a un servicio de almacenamiento para que los podamos revisar y así comprender de mejor maneja el proyecto. Después de subirlos pega la URL del archivo en el campo de abajo.</p>
+            </div>
+          </div>
+          <div class="container">
+            <div class="col4 push4 col-t8 push-t2"> 
+              <div class="urlInput">
+                <input type="text" placeholder="URL de archivo | Opcional" ng-model="datos.url">
+                <div class="icons"><a href="http://filenurse.com/" target="_blank"><img src="site/img/icon_filenurse.png" alt="Filenurse"></a><a href="https://www.dropbox.com/" target="_blank"><img src="site/img/icon_dropbox.png" alt="Dropbox"></a><a href="https://mega.nz/" target="_blank"><img src="site/img/icon_mega.png" alt="Mega"></a><a href="https://www.wetransfer.com/" target="_blank"><img src="site/img/icon_we.png" alt="WeTransfer"></a></div>
+                <input type="text" placeholder="¿Cuándo se debe entregar?" ng-model="datos.when">
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="col2 push8 col-t4 push-t8">
+              <button ng-show="datos.when" data-hide="#fourth" data-next="#fifth" class="btn next">SEGUIR    </button>
+            </div>
+          </div>
+        </section>
       <section id="fifth">
         <div class="container">
           <div class="col6 push3">

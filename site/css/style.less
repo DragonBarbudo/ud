@@ -99,19 +99,25 @@ body{
   }
 }
 
-#aboutUs, #closeaboutUs{
+#navicons{
   display: block;
-  color:@b;
   padding: 0 30px;
   position: fixed;
   right: 5px;bottom: 2px;
-  font-size: 4em;
-  &:hover{
-    .shake;
-    color:@w;
+  z-index: 1000;
+  a{
+    font-size: 4em;
+    color:@b;
+    &:hover{
+      .shake;
+      color:@w;
+      &#closeaboutUs{color:@main;}
+    }
   }
 }
 
+
+#closeaboutUs{display: none;}
 
 #start{
   position: absolute;
@@ -258,5 +264,5 @@ p{
   }
 
   #closeaboutUs{color:@b; z-index: 100; &:hover{color:@main;}}
-
+  i{ font-size: 1em; margin-right: 6px; color:@g; }
 }

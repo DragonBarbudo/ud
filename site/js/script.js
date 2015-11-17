@@ -113,6 +113,7 @@ setTimeout(function(){
 }, 1000);
 
 
+/* HOVER STATES
 
 $('#start, .ud.central').hover(function(){
   $('body').addClass('dark');
@@ -126,14 +127,18 @@ $('#aboutUs').hover(function(){
 },function(){
   $('body').removeClass('light');
 });
-
+*/
 
 //aboutUs
 $('#aboutUs').click(function(){
   $('#aboutusArea').slideDown();
+  $('#aboutUs').hide();
+  $('#closeaboutUs').show();
 });
 $('#closeaboutUs').click(function(){
   $('#aboutusArea').slideUp();
+  $('#closeaboutUs').hide();
+  $('#aboutUs').show();
 });
 
 //START

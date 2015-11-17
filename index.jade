@@ -12,12 +12,13 @@ include site/_config.jade
     
     div(data-svg="site/img/urgencias-digitales.svg").ud.white.central#logo
     div(data-svg="site/img/beatline.svg")#beatline
-    a(href="#")#aboutUs.ion-ios-help-empty
-    
+    #navicons
+      a(href="#")#aboutUs.ion-ios-help-empty
+      a(href="#")#closeaboutUs.ion-ios-close-empty
     a(href="#")#start.ion-ios-arrow-thin-right
     
     #aboutusArea
-      a(href="#")#closeaboutUs.ion-ios-close-empty
+      
       .container
         .col4.col-t12.col-m12.thelogo
           div(data-svg="site/img/urgencias-digitales.svg")#logoInside
@@ -25,9 +26,18 @@ include site/_config.jade
           p Si necesitas un proyecto en un periodo de tiempo urgente o te quedó mal tu desarrollador y tienes un proyecto inconcluso no sufras más, <strong class="red">nosotros podemos auxiliarte</strong>.
           p En <strong class="red">Urgencias Digitales</strong> podemos apoyarte con proyectos de <strong>programación</strong>, <strong>diseño</strong>, <strong>modelado 3D</strong>, <strong>desarrollo de interactivos</strong>, <strong>aplicaciones móviles</strong>, etc. Sólo es necesario que llenes el formulario principal del sitio y nos cuentes el estatus de tu proyecto. Nosotros nos pondremos en contacto en cuestión de horas (o minutos) para ofrecerte una solución inmediata.
           p Si tu urgencia es mucha puedes buscarnos en los siguientes medios:
-          p <strong class="small">Correo electrónico</strong> <a class="jump" href="mailto:urge@urgenciasdigitales.com">urge@urgenciasdigitales.com</a>
+          p
+            i.ion-ios-email-outline
+            strong.small Correo electrónico
+            a.jump(href="mailto:urge@urgenciasdigitales.com") urge@urgenciasdigitales.com
             br
-            <strong class="small">Móvil / Whatsapp</strong> <a class="jump" href="tel:5513484349">(55) 13 48-43 49</a>
+            i.ion-social-skype-outline
+            strong.small Skype</strong>
+            a.jump(href="skype:urgenciasdigitales?chat") urgenciasdigitales
+            br
+            i.ion-social-whatsapp-outline
+            strong.small WhatsApp
+            a.jump(href="whatsapp://send?abid=5513484349&text=Tengo una urgencia") (55) 13 48-43 49
         .col4.col-t4.col-m12
           #listS
             #listscroll.scroll-text
@@ -78,54 +88,59 @@ include site/_config.jade
                 li jQuery
 
 
+
+
+    mixin section(_id, _title, _p, _small, _next, _ngshow)
+      section(id=_id)
+        .container
+          .col6.push3.col-t8.push-t2
+            h2=_title
+              if _small
+                small=_small
+            if _p
+              p=_p
+        .container
+          .col4.push4.col-t8.push-t2
+            if block
+              block
+        .container
+          .col2.push8.col-t4.push-t8
+            button.btn.next(ng-show=_ngshow, data-hide='##{_id}', data-next='##{_next}') SEGUIR    
+                
+            
+    
+                
     
     .sections(ng-controller="dataCtrl").not
-      section#two
-        .container
-          .col6.push3
-            h2 Tengo una urgencia digital.
-              small Requiero un:
-        .container
-          .col4.push4
-            button.btn.btnactive(ng-click="datos.need='programador'") PROGRAMADOR
-            button.btn.btnactive(ng-click="datos.need='diseñador'") DISEÑADOR
-            button.btn.btnactive(ng-click="datos.need='asesor'") ASESOR
-            button.btn.btnactive(ng-click="datos.need='otro'") OTRO
-        .container
-          .col2.push8
-            button.btn.next(ng-show="datos.need", data-hide="#two", data-next="#three") SEGUIR
-      section#three
-        .container
-          .col6.push3
-            h2 Sobre la urgencia.
-        .container
-          .col8.push2
-            input(type="text", placeholder="¿Qué tipo de proyecto es?", ng-model="datos.tipo")
-            label Sitio web, logotipo, interactivo, modelado 3D…
-            textarea(placeholder="Estado actual y características a desarrollar", ng-model="datos.status")
-            label Desde cero, al 50%, últimos detalles…
-        .container
-          .col2.push8
-            button.btn.next(ng-show="datos.tipo && datos.status", data-hide="#three", data="#fourth") SEGUIR
-  
-      section#fourth
-        .container
-          .col6.push3
-            h2 Sobre la urgencia.
-            p Si tienes  archivos  puedes subirlos a un servicio de almacenamiento para que los podamos revisar y así comprender de mejor maneja el proyecto. Después de subirlos pega la URL del archivo en el campo de abajo.
-        .container
-          .col8.push2
-            div.urlInput
-              input(type="text", placeholder="URL de archivo | Opcional", ng-model="datos.url")
-              .icons
-                a(href="http://filenurse.com/", target="_blank"): img(src="site/img/icon_filenurse.png", alt="Filenurse")
-                a(href="https://www.dropbox.com/", target="_blank"): img(src="site/img/icon_dropbox.png", alt="Dropbox")
-                a(href="https://mega.nz/", target="_blank"): img(src="site/img/icon_mega.png", alt="Mega")
-                a(href="https://www.wetransfer.com/", target="_blank"): img(src="site/img/icon_we.png", alt="WeTransfer")
-              input(type="text", placeholder="¿Cuándo se debe entregar?", ng-model="datos.when")
-        .container
-          .col2.push8
-            button.btn.next(ng-show="datos.when", data-hide="#fourth", data="#fifth") SEGUIR
+    
+    
+      +section('two', 'Tengo una urgencia digital', null, 'Requiero un:', 'three', 'datos.need')
+        button.btn.btnactive(ng-click="datos.need='programador'") PROGRAMADOR
+        button.btn.btnactive(ng-click="datos.need='diseñador'") DISEÑADOR
+        button.btn.btnactive(ng-click="datos.need='asesor'") ASESOR
+        button.btn.btnactive(ng-click="datos.need='otro'") OTRO
+    
+      
+      +section('three', 'Sobre la urgencia.', null, null, 'fourth', 'datos.tipo && datos.status')
+        input(type="text", placeholder="¿Qué tipo de proyecto es?", ng-model="datos.tipo")
+        label Sitio web, logotipo, interactivo, modelado 3D…
+        textarea(placeholder="Estado actual y características a desarrollar", ng-model="datos.status")
+        label Desde cero, al 50%, últimos detalles…
+        
+      
+      - var txt4th = 'Si tienes  archivos  puedes subirlos a un servicio de almacenamiento para que los podamos revisar y así comprender de mejor maneja el proyecto. Después de subirlos pega la URL del archivo en el campo de abajo.';
+      +section('fourth', '¿Qué hay y cuándo se entrega?', txt4th, null, 'fifth', 'datos.when')  
+          div.urlInput
+            input(type="text", placeholder="URL de archivo | Opcional", ng-model="datos.url")
+            .icons
+              a(href="http://filenurse.com/", target="_blank"): img(src="site/img/icon_filenurse.png", alt="Filenurse")
+              a(href="https://www.dropbox.com/", target="_blank"): img(src="site/img/icon_dropbox.png", alt="Dropbox")
+              a(href="https://mega.nz/", target="_blank"): img(src="site/img/icon_mega.png", alt="Mega")
+              a(href="https://www.wetransfer.com/", target="_blank"): img(src="site/img/icon_we.png", alt="WeTransfer")
+            input(type="text", placeholder="¿Cuándo se debe entregar?", ng-model="datos.when")
+              
+              
+              
       section#fifth
         .container
           .col6.push3
@@ -153,4 +168,3 @@ include site/_config.jade
       | {{ datos | json }}
 
     +scripts
-
