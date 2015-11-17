@@ -101,17 +101,35 @@ body{
 
 #navicons{
   display: block;
-  padding: 0 30px;
   position: fixed;
   right: 5px;bottom: 2px;
   z-index: 1000;
   a{
+    display: inline-block;
     font-size: 4em;
     color:@b;
+    padding: 0 20px;
     &:hover{
       .shake;
       color:@w;
-      &#closeaboutUs{color:@main;}
+      &#closeaboutUs{ color:@main;}
+    }
+    &#closeaboutUs{ display: none; }
+  }
+}
+#socialicons{
+  display: block;
+  position: fixed;
+  right: 5px; top: 2px;
+  font-size: 1.2em;
+  z-index: 1000;
+  a{
+    display: inline-block;
+    padding: 10px;
+    color:@b;
+    &:hover{
+      .shake;
+      color:@main/1.2;
     }
   }
 }

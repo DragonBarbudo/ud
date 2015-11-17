@@ -1200,15 +1200,16 @@ body.light {
 }
 #navicons {
   display: block;
-  padding: 0 30px;
   position: fixed;
   right: 5px;
   bottom: 2px;
   z-index: 1000;
 }
 #navicons a {
+  display: inline-block;
   font-size: 4em;
   color: #424041;
+  padding: 0 20px;
 }
 #navicons a:hover {
   -webkit-animation-name: shaking;
@@ -1220,6 +1221,30 @@ body.light {
 }
 #navicons a:hover#closeaboutUs {
   color: #F74F4C;
+}
+#navicons a#closeaboutUs {
+  display: none;
+}
+#socialicons {
+  display: block;
+  position: fixed;
+  right: 5px;
+  top: 2px;
+  font-size: 1.2em;
+  z-index: 1000;
+}
+#socialicons a {
+  display: inline-block;
+  padding: 10px;
+  color: #424041;
+}
+#socialicons a:hover {
+  -webkit-animation-name: shaking;
+  -webkit-animation-duration: 0.8s;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  color: #ce423f;
 }
 #closeaboutUs {
   display: none;
