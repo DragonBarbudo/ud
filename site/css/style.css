@@ -1560,3 +1560,8 @@ p {
 .hidden {
   display: none !important;
 }
+h1 {
+  position: absolute;
+  text-indent: -99999px;
+  visibility: hidden;
+}
