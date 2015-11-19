@@ -29,9 +29,7 @@ $(function(){
         resultado = JSON.parse(result);
         if( resultado[0].status === "sent" ){
           _this.find('.resultado').html('Mensaje correctamente enviado.');
-
-          _gaq.push(['_trackPageview', '/formularioEnviado']);
-
+          ga('send', 'pageview', '/formularioEnviado');
         } else {
           _this.find('.resultado').html('Ocurrió un error. Inténtelo de nuevo más tarde.');
         }
@@ -132,7 +130,7 @@ $('#start, .ud.central').click(function(){
 
 
 $('#aboutUs').click(function(){
-  _gaq.push(['_trackPageview', '/masInformacion']);
+  ga('send', 'pageview', '/masInformacion');
 });
 
 
