@@ -29,6 +29,9 @@ $(function(){
         resultado = JSON.parse(result);
         if( resultado[0].status === "sent" ){
           _this.find('.resultado').html('Mensaje correctamente enviado.');
+
+          _gaq.push(['_trackPageview', '/formularioEnviado']);
+
         } else {
           _this.find('.resultado').html('Ocurrió un error. Inténtelo de nuevo más tarde.');
         }
@@ -94,6 +97,11 @@ $(function(){
   /* custom */
 
 
+if($('.tooltip').length>0){
+  $('.tooltip').tooltipster();
+}
+
+
 $('[data-svg]').each(function(){
   var thisID = $(this).attr('id');
 
@@ -113,33 +121,7 @@ setTimeout(function(){
 }, 1000);
 
 
-/* HOVER STATES
 
-$('#start, .ud.central').hover(function(){
-  $('body').addClass('dark');
-
-},function(){
-  $('body').removeClass('dark');
-});
-
-$('#aboutUs').hover(function(){
-  $('body').addClass('light');
-},function(){
-  $('body').removeClass('light');
-});
-*/
-
-//aboutUs
-$('#aboutUs').click(function(){
-  $('#aboutusArea').slideDown();
-  $('#aboutUs').hide();
-  $('#closeaboutUs').show();
-});
-$('#closeaboutUs').click(function(){
-  $('#aboutusArea').slideUp();
-  $('#closeaboutUs').hide();
-  $('#aboutUs').show();
-});
 
 //START
 $('#start, .ud.central').click(function(){
@@ -148,6 +130,10 @@ $('#start, .ud.central').click(function(){
   $('.sections').removeClass('not');
 });
 
+
+$('#aboutUs').click(function(){
+  _gaq.push(['_trackPageview', '/masInformacion']);
+});
 
 
 $('.btnactive').click(function(){
@@ -187,6 +173,8 @@ function drawBeat(){
 
 
 app.controller('dataCtrl', function($scope){
-  $scope.datos = {};
+  $scope.datos = {
+    Today : new Date()
+  };
 
 });

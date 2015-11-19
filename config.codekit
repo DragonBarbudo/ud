@@ -164,6 +164,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/ext\/banner_yt.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72777,
+		"inputAbbreviatedPath": "\/ext\/banner_yt.png",
+		"outputAbbreviatedPath": "\/ext\/banner_yt.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/ext\/ud.png": {
 		"fileType": 32768,
 		"ignore": 0,
