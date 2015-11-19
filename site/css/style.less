@@ -26,6 +26,11 @@
   .box-sizing(border-box);
   font-weight: 300;
   margin: 20px 0;
+  @media @mobile{
+    font-size: 0.9em;
+    padding: 6px 10px;
+    margin: 10px 0;
+  }
   &:hover, &.active{
     background: @w;
     color:@main;
@@ -160,6 +165,9 @@ h2{
   font-weight: 300;
   font-size: 1.6em;
   color:@w;
+  @media @mobile{
+    font-size: 1.2em;
+  }
   small{
     display: block;
     font-size: 0.8em;
@@ -180,6 +188,11 @@ input, textarea{
   font-weight: 300;
   margin: 20px 0;
   resize: none;
+  @media @mobile{
+    font-size: 0.9em;
+    padding: 6px 10px;
+    margin: 10px 0;
+  }
 }
 textarea{ min-height: 80px; }
 label{
@@ -188,6 +201,9 @@ label{
   text-align: center;
   font-size: 0.9em;
   margin-top: -14px;
+  @media @mobile{
+    margin-top: -8px;
+  }
 }
 .sections{
   position: relative;
@@ -197,15 +213,20 @@ label{
   &.not{ .opacity(0); margin-left: 100%; }
   overflow: hidden;
   height: 100%;
+
   section{
     height: 100%;
     padding: 80px 0;
-    @media @mobile{ margin-top: 60px; }
+    @media @mobile{ margin-top: 0px; }
   }
 }
 p{
   color:@w;
   margin: 30px 0;
+  @media @mobile{
+    font-size: 0.9em;
+    margin: 14px 0;
+  }
 }
 
 .urlInput{
@@ -257,8 +278,8 @@ p{
       }
       @media @mobile{
         height: 140px;
-        margin-top: 10px;
-        margin-bottom: 20px;
+        margin-top: 40px;
+        margin-bottom: 0px;
       }
     &:before, &:after{
       content:"";

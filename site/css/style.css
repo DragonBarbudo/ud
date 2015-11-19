@@ -1072,6 +1072,13 @@ code {
   font-weight: 300;
   margin: 20px 0;
 }
+@media only screen and (max-width: 480px) {
+  .btn {
+    font-size: 0.9em;
+    padding: 6px 10px;
+    margin: 10px 0;
+  }
+}
 .btn:hover,
 .btn.active {
   background: #f5f5f5;
@@ -1276,6 +1283,11 @@ h2 {
   font-size: 1.6em;
   color: #f5f5f5;
 }
+@media only screen and (max-width: 480px) {
+  h2 {
+    font-size: 1.2em;
+  }
+}
 h2 small {
   display: block;
   font-size: 0.8em;
@@ -1304,6 +1316,14 @@ textarea {
   margin: 20px 0;
   resize: none;
 }
+@media only screen and (max-width: 480px) {
+  input,
+  textarea {
+    font-size: 0.9em;
+    padding: 6px 10px;
+    margin: 10px 0;
+  }
+}
 textarea {
   min-height: 80px;
 }
@@ -1313,6 +1333,11 @@ label {
   text-align: center;
   font-size: 0.9em;
   margin-top: -14px;
+}
+@media only screen and (max-width: 480px) {
+  label {
+    margin-top: -8px;
+  }
 }
 .sections {
   position: relative;
@@ -1345,12 +1370,18 @@ label {
 }
 @media only screen and (max-width: 480px) {
   .sections section {
-    margin-top: 60px;
+    margin-top: 0px;
   }
 }
 p {
   color: #f5f5f5;
   margin: 30px 0;
+}
+@media only screen and (max-width: 480px) {
+  p {
+    font-size: 0.9em;
+    margin: 14px 0;
+  }
 }
 .urlInput {
   position: relative;
@@ -1436,8 +1467,8 @@ p {
 @media only screen and (max-width: 480px) {
   #aboutusArea #listS {
     height: 140px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 0px;
   }
 }
 #aboutusArea #listS:before,
