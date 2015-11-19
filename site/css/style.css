@@ -1255,6 +1255,12 @@ body.light {
   color: #424041;
   cursor: pointer;
 }
+@media only screen and (max-width: 480px) {
+  #socialicons a,
+  #socialicons button {
+    padding: 5px;
+  }
+}
 #socialicons a:hover,
 #socialicons button:hover {
   -webkit-animation-name: shaking;

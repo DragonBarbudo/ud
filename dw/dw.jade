@@ -10,7 +10,7 @@ mixin head(titleTxt, links, keywords, description)
     title=titleTxt
     meta(name="description" content=description)
     meta(name="keywords" content=keywords)
-    meta(name="viewport" content="width=device-width, initial-scale=1")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
     link(rel="icon", type="image/png", href="favicon.png")
     - each ls in links
       link(rel="stylesheet", href=ls)  
