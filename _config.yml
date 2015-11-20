@@ -15,3 +15,6 @@ twitter_username: urgenciadigital
 
 # Build settings
 markdown: kramdown
+
+gems:
+- jekyll-sitemap
