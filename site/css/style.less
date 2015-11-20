@@ -271,10 +271,11 @@ p{
   .small{ font-size: 0.8em;}
   .jump{ display: block;}
   a{color:@main; font-weight: 400; }
+  @listHeight : 680px;
   #listS{
-    margin-top: 40px;
+    margin-top: 80px;
     position: relative;
-    height: 560px;
+    height: @listHeight;
     overflow: hidden;
       @media @tablet{
         margin-top: 40px;
@@ -297,7 +298,7 @@ p{
       &:before, &:after{ height: 20px;}
     }
     #listscroll{
-      height: 560px;
+      height: @listHeight;
       overflow: hidden;
       @media @mobile{height: 140px; }
       .listtech{
@@ -348,4 +349,33 @@ h1{
   position: absolute;
   text-indent: -99999px;
   visibility: hidden;
+}
+
+
+
+footer{
+  background: @b;
+  padding: 10px 0;
+  #footericons{
+    text-align: center;
+    font-size: 1.2em;
+    z-index: 1000;
+    form{display: inline-block;}
+    a, button{
+      text-decoration: none;
+      border:none;
+      background: transparent;
+      display: inline-block;
+      padding: 10px;
+      color:@w;
+      cursor:pointer;
+      @media @mobile{
+        padding:5px;
+      }
+      &:hover{
+        .shake;
+        color:@main;
+      }
+    }
+  }
 }
