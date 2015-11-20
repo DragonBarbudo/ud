@@ -6,6 +6,10 @@ tags: urgente, programador, diseñador
 description: "Bienvenido al blog de Urgencias Digitales."
 ---
 
+Gracias por visitarnos. Te invitamos a seguirnos a través de nuestras redes sociales y a dejarte cuidar con nuestros servicios.
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/JhUHchR_Z4E" frameborder="0" allowfullscreen></iframe> 
+
+En este blog mostraremos los proyectos en los que estamos trabajando, guías/tips y promociones para todas esas urgencias digitales del día a día, así que te invitamos a que nos sigas a través de los múltiples canales con los que contamos o a través del RSS.
 
 
-Mostraremos los proyectos en los que estamos trabajando, algunas guías y promociones para todas esas urgencias digitales del día a día.
