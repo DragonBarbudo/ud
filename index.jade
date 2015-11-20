@@ -1,5 +1,7 @@
-//-output: index.html, pretty:false
-
+| ---
+| layout: null
+| ---
+|  
 include site/_config.jade
 
 +html5
@@ -15,23 +17,13 @@ include site/_config.jade
     div(data-svg="site/img/beatline.svg")#beatline
     #navicons
       a(href="#aboutusArea", data-scroll, title="Más información")#aboutUs.ion-ios-help-empty.tooltip
-    #socialicons
-      
-      a(href="tel:5513484349", title="(55) 13 48-43 49").tooltip.ion-social-whatsapp
-      a(href="https://twitter.com/urgenciadigital", target="_blank", title="@urgenciadigital").tooltip.ion-social-twitter
-      a(href="mailto:urge@urgenciasdigitales.space", title="urge@urgenciasdigitales.space").tooltip.ion-ios-email
-      a(href="skype:urgenciasdigitales?chat", title="Skype: urgenciasdigitales").tooltip.fa.fa-skype
-      form(action="https://www.paypal.com/cgi-bin/webscr", method="post")
-        input(type="hidden", name="cmd", value="_s-xclick")
-        input(type="hidden", name="hosted_button_id", value="CQVJGD2UZ9LQN")
-        button(type="submit", title="Pago con PayPal").tooltip.fa.fa-paypal
+    +topicons
       
       
     a(href="#", title="URGENCIA DIGITAL")#start.ion-ios-arrow-thin-right.tooltip
     
       
-    h1 Tengo una urgencia digital  
-
+    h1.main Tengo una urgencia digital  
 
 
     mixin section(_id, _title, _p, _small, _next, _ngshow, _buttonTxt)
@@ -165,19 +157,16 @@ include site/_config.jade
                   li PHP
                   li Python
                   li Less
-    footer
+    section#blogLatest
       .container
         .col12
-          #footericons
-            a(href="https://www.linkedin.com/company/urgencias-digitales", title="LinkedIn", target="_blank").tooltip.ion-social-linkedin
-            a(href="tel:5513484349", title="(55) 13 48-43 49").tooltip.ion-social-whatsapp
-            a(href="https://twitter.com/urgenciadigital", target="_blank", title="@urgenciadigital").tooltip.ion-social-twitter
-            a(href="https://google.com/+UrgenciasdigitalesSpaceud", rel="publisher", target="_blank", title="Google+").tooltip.ion-social-googleplus-outline
-            a(href="https://www.youtube.com/channel/UC_RkfDdfi7wJUbR1-vxs7bA", title="YouTube", target="_blank").tooltip.ion-social-youtube
-            a(href="mailto:urge@urgenciasdigitales.space", title="urge@urgenciasdigitales.space").tooltip.ion-ios-email
-            a(href="skype:urgenciasdigitales?chat", title="Skype: urgenciasdigitales").tooltip.fa.fa-skype
-            form(action="https://www.paypal.com/cgi-bin/webscr", method="post")
-              input(type="hidden", name="cmd", value="_s-xclick")
-              input(type="hidden", name="hosted_button_id", value="CQVJGD2UZ9LQN")
-              button(type="submit", title="Pago con PayPal").tooltip.fa.fa-paypal
+          h2 Últimas entradas del blog
+      .container
+        | {% for post in site.posts offset: 0 limit: 4  %}
+        .col3.col-t6.col-m6: a(href="{{ site.url }}{{ post.url }}").post
+          h3 {{ post.title }}
+          p {{ post.description }}
+        | {% endfor %} 
+
+    +footer
     +scripts

@@ -1193,6 +1193,9 @@ body.light {
 .ud.central:hover #ud_TXT {
   fill: #f5f5f5;
 }
+.white #ud_IMAGO {
+  fill: #f5f5f5;
+}
 #beatline {
   position: absolute;
   left: 10px;
@@ -1283,6 +1286,7 @@ body.light {
 #start:hover {
   color: #424041;
 }
+h1,
 h2 {
   text-align: center;
   font-weight: 300;
@@ -1290,10 +1294,12 @@ h2 {
   color: #f5f5f5;
 }
 @media only screen and (max-width: 480px) {
+  h1,
   h2 {
     font-size: 1.2em;
   }
 }
+h1 small,
 h2 small {
   display: block;
   font-size: 0.8em;
@@ -1560,10 +1566,56 @@ p {
 .hidden {
   display: none !important;
 }
-h1 {
+h1.main {
   position: absolute;
   text-indent: -99999px;
   visibility: hidden;
+}
+#blogLatest {
+  padding: 20px 0;
+}
+#blogLatest h2 {
+  padding: 20px 0;
+}
+#blogLatest a.post {
+  display: block;
+  height: 180px;
+  text-decoration: none;
+  background: #ce423f;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #f5f5f5;
+}
+#blogLatest a.post h3 {
+  padding-top: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1.6em;
+  text-align: center;
+  margin: 10px;
+}
+#blogLatest a.post p {
+  text-align: center;
+  font-size: 0.8em;
+  margin: 10px;
+}
+#blogLatest a.post:hover {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  background: #f5f5f5;
+  color: #424041;
+}
+#blogLatest a.post:hover p,
+#blogLatest a.post:hover h3 {
+  color: #424041;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 footer {
   background: #424041;
@@ -1601,4 +1653,66 @@ footer #footericons button:hover {
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
   color: #F74F4C;
+}
+/* BLOGSTYLES */
+#logoblog {
+  position: relative;
+  display: block;
+  text-align: center;
+  padding: 40px 0;
+}
+@media only screen and (min-width: 481px) and (max-width: 959px) {
+  #logoblog {
+    margin: 20px 0;
+  }
+}
+#logoblog svg {
+  max-height: 120px;
+}
+#logoblog #beatline {
+  right: 20px;
+  left: auto;
+}
+#blog {
+  padding: 80px 0;
+}
+@media only screen and (min-width: 481px) and (max-width: 959px), only screen and (max-width: 480px) {
+  #blog {
+    padding: 30px 0;
+  }
+}
+#blog #navicons {
+  display: none;
+}
+#blog h1.entry {
+  font-size: 2em;
+  text-align: left;
+}
+#blog h2 {
+  font-size: 1.2em;
+  text-align: right;
+  margin: 10px 0;
+}
+#blog .otherposts {
+  list-style: none;
+  text-align: right;
+}
+#blog .otherposts a {
+  display: block;
+  color: #f5f5f5;
+  padding: 5px;
+}
+#blog .otherposts a:hover {
+  color: #F74F4C;
+  background: #f5f5f5;
+}
+#blog #content {
+  position: relative;
+}
+#blog #content #beatline {
+  position: static;
+  margin: 40px auto;
+}
+#blog #content p {
+  margin: 10px 0;
 }

@@ -39,3 +39,35 @@ include ../dw/dw.jade
 - menu.push(['Nosotros', 'nosotros']) //[1]
 - menu.push(['Servicios', 'servicios']) //[2]
 - menu.push(['Contacto', 'contacto']) //[3]
+
+
+
+mixin topicons
+  
+  #socialicons
+    a(href="")
+    a(href="tel:5513484349", title="(55) 13 48-43 49").tooltip.ion-social-whatsapp
+    a(href="https://twitter.com/urgenciadigital", target="_blank", title="@urgenciadigital").tooltip.ion-social-twitter
+    a(href="mailto:urge@urgenciasdigitales.space", title="urge@urgenciasdigitales.space").tooltip.ion-ios-email
+    a(href="skype:urgenciasdigitales?chat", title="Skype: urgenciasdigitales").tooltip.fa.fa-skype
+    form(action="https://www.paypal.com/cgi-bin/webscr", method="post")
+      input(type="hidden", name="cmd", value="_s-xclick")
+      input(type="hidden", name="hosted_button_id", value="CQVJGD2UZ9LQN")
+      button(type="submit", title="Pago con PayPal").tooltip.fa.fa-paypal
+  
+  mixin footer
+    footer
+      .container
+        .col12
+          #footericons
+            a(href="https://www.linkedin.com/company/urgencias-digitales", title="LinkedIn", target="_blank").tooltip.ion-social-linkedin
+            a(href="tel:5513484349", title="(55) 13 48-43 49").tooltip.ion-social-whatsapp
+            a(href="https://twitter.com/urgenciadigital", target="_blank", title="@urgenciadigital").tooltip.ion-social-twitter
+            a(href="https://google.com/+UrgenciasdigitalesSpaceud", rel="publisher", target="_blank", title="Google+").tooltip.ion-social-googleplus-outline
+            a(href="https://www.youtube.com/channel/UC_RkfDdfi7wJUbR1-vxs7bA", title="YouTube", target="_blank").tooltip.ion-social-youtube
+            a(href="mailto:urge@urgenciasdigitales.space", title="urge@urgenciasdigitales.space").tooltip.ion-ios-email
+            a(href="skype:urgenciasdigitales?chat", title="Skype: urgenciasdigitales").tooltip.fa.fa-skype
+            form(action="https://www.paypal.com/cgi-bin/webscr", method="post")
+              input(type="hidden", name="cmd", value="_s-xclick")
+              input(type="hidden", name="hosted_button_id", value="CQVJGD2UZ9LQN")
+              button(type="submit", title="Pago con PayPal").tooltip.fa.fa-paypal

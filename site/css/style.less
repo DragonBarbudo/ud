@@ -90,6 +90,13 @@ body{
   }
 }
 
+&.white{
+  #ud_IMAGO{ fill:@w; }
+}
+
+
+
+
 
 #beatline{
   position: absolute;
@@ -163,7 +170,7 @@ body{
   }
 }
 
-h2{
+h1, h2{
   text-align: center;
   font-weight: 300;
   font-size: 1.6em;
@@ -345,12 +352,46 @@ p{
 
 
 
-h1{
+h1.main{
   position: absolute;
   text-indent: -99999px;
   visibility: hidden;
 }
 
+
+#blogLatest{
+  padding: 20px 0;
+  h2{
+    padding: 20px 0;
+  }
+  a.post{
+    display: block;
+    height: 180px;
+    text-decoration: none;
+    background: @main/1.2;;
+    .box-sizing(border-box);
+    color:@w;
+    h3{
+      padding-top: 20px;
+      .font;
+      font-weight: 300;
+      font-size: 1.6em;
+      text-align: center;
+      margin: 10px;
+    }
+    p{
+      text-align: center;
+      font-size: 0.8em;
+      margin: 10px;
+    }
+    &:hover{
+      .transition;
+      background: @w;
+      color:@b;
+      p,h3{ color:@b; .transition; }
+    }
+  }
+}
 
 
 footer{
@@ -376,6 +417,61 @@ footer{
         .shake;
         color:@main;
       }
+    }
+  }
+}
+
+
+
+
+/* BLOGSTYLES */
+#logoblog{
+  position: relative;
+  display: block;
+  text-align: center;
+  padding: 40px 0;
+  @media @tablet{margin: 20px 0;}
+  svg{max-height: 120px;}
+  #beatline{
+    right: 20px;
+    left: auto;
+  }
+}
+#blog{
+  padding: 80px 0;
+  @media @tablet, @mobile{
+    padding: 30px 0;
+  }
+  #navicons{display: none;}
+  h1.entry{font-size: 2em; text-align: left;}
+  h2{
+    font-size: 1.2em;
+    text-align: right;
+    margin: 10px 0;
+  }
+
+
+  .otherposts{
+    list-style: none;
+    text-align: right;
+    a{
+      display: block;
+      color:@w;
+      padding: 5px;
+      &:hover{
+        color:@main;
+        background: @w;
+      }
+    }
+  }
+  #content{
+    position: relative;
+    #beatline{
+      position: static;
+      margin: 40px auto;
+    }
+    p{
+      margin: 10px 0;
     }
   }
 }
