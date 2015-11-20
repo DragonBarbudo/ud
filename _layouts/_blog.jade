@@ -15,7 +15,7 @@ include ../site/_config.jade
     .container
       .col4
         a(href="http://urgenciasdigitales.space")#logoblog
-          div(data-svg="site/img/urgencias-digitales.svg").white
+          div(data-svg="{{site.url}}/site/img/urgencias-digitales.svg").white
           
     
     
@@ -32,7 +32,7 @@ include ../site/_config.jade
             li: a(href="{{ site.url }}{{ p.url }}") {{ p.title }}
             | {% endfor %}
         .col12
-          div(data-svg="site/img/beatline.svg")#beatline
+          div(data-svg="{{site.url}}/site/img/beatline.svg")#beatline
       
       .container#comments
         .col12.col-m10.push-m1
