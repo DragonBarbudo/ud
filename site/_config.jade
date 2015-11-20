@@ -15,7 +15,7 @@ include ../dw/dw.jade
 - stylesheets.push('http://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css')
 - stylesheets.push('https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.1/css/swipebox.min.css')
 - stylesheets.push('https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/tooltipster.min.css')
-- stylesheets.push('site/css/style.css') //Main style
+- stylesheets.push('{{site.url}}/site/css/style.css') //Main style
 
 //- JAVASCRIPTS
 - var javascripts = []
@@ -29,9 +29,9 @@ include ../dw/dw.jade
 - javascripts.push('https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js')
 - javascripts.push('https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js')
 - javascripts.push('https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js')
-- javascripts.push('site/js/scrollbox.js')
-- javascripts.push('site/js/drawsvg.js')
-- javascripts.push('site/js/script.js') //Main Js
+- javascripts.push('{{site.url}}/site/js/scrollbox.js')
+- javascripts.push('{{site.url}}/site/js/drawsvg.js')
+- javascripts.push('{{site.url}}/site/js/script.js') //Main Js
 
 //- MENU
 - var menu = [] //- menu.push('PageName', 'Slug')
@@ -71,3 +71,4 @@ mixin topicons
               input(type="hidden", name="cmd", value="_s-xclick")
               input(type="hidden", name="hosted_button_id", value="CQVJGD2UZ9LQN")
               button(type="submit", title="Pago con PayPal").tooltip.fa.fa-paypal
+            a(href="skype:urgenciasdigitales?chat", title="Skype: urgenciasdigitales").tooltip.fa.fa-skype
