@@ -1716,3 +1716,8 @@ footer #footericons button:hover {
 #blog #content p {
   margin: 10px 0;
 }
+.social-likes,
+.social-likes__widget {
+  display: block;
+  text-align: right;
+}
