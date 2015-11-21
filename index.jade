@@ -88,7 +88,7 @@ include site/_config.jade
           input(type="email", name="Correo", placeholder="Correo electrónico", ng-model="datos.cliente.email")
           input(type="text", name="Tel", placeholder="Telefono", ng-model="datos.cliente.telefono")
           input(type="text", name="Otro", placeholder="Otro", ng-model="datos.cliente.otro")
-          textarea(name="Datos").hidden {% raw %} {{ datos | json }} {% endraw %}
+          textarea(name="Datos").hidden {% raw %}{{ datos | json }}{% endraw %}
           button.btn.next(ng-show='datos.cliente.nombre && datos.cliente.email', data-hide='#fifth', data-next='#sixth', type="submit") TERMINAR    
 
 
