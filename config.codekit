@@ -312,13 +312,13 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/_site\/promo\/promo1000.png": {
+	"\/_site\/promo\/promo-1000.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 38822,
-		"inputAbbreviatedPath": "\/_site\/promo\/promo1000.png",
-		"outputAbbreviatedPath": "\/_site\/promo\/promo1000.png",
+		"inputAbbreviatedPath": "\/_site\/promo\/promo-1000.png",
+		"outputAbbreviatedPath": "\/_site\/promo\/promo-1000.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -737,13 +737,13 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/promo\/promo1000.png": {
+	"\/promo\/promo-web-1000.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 38822,
-		"inputAbbreviatedPath": "\/promo\/promo1000.png",
-		"outputAbbreviatedPath": "\/promo\/promo1000.png",
+		"inputAbbreviatedPath": "\/promo\/promo-web-1000.png",
+		"outputAbbreviatedPath": "\/promo\/promo-web-1000.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
