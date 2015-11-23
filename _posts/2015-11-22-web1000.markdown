@@ -10,7 +10,7 @@ postimg: "http://urgenciasdigitales.space/promo/promo-web-1000.png"
 ![Promoción 1000](http://urgenciasdigitales.space/promo/promo-web-1000.png)
  
 
-Estamos ofreciendo esta promoción **express** para los emprendedores que aún no cuentan con su **sitio web**. Por sólo **$1000** (MXN) podrán disfrutar de un sitio web más que completo, con las últimas especificaciones técnicas y compatibilidad multiplataforma.
+Estamos ofreciendo esta promoción **express** para los emprendedores que aún no cuentan con su **sitio web**. Por sólo **$1000** (MXN) podrán disfrutar de un sitio web competitivo, con las últimas especificaciones técnicas y compatibilidad multiplataforma.
 
 
 
@@ -28,7 +28,7 @@ Estamos ofreciendo esta promoción **express** para los emprendedores que aún n
 - Alta en buscadores
 - Desarrollo en 1 semana o menos
 
-<label>Revisa a detalle cada característica en el formulario de solicitud.</label>
+> Revisa a detalle cada característica en el formulario de solicitud.
 
 
 ## Ejemplos de sitios
@@ -84,8 +84,10 @@ Si ya te animaste a tener tu sitio web te invitamos a que llenes el siguiente fo
 <input type="text" name="Paypal" placeholder="Usuario de PayPal | Opcional">
 <label>Si tienes logotipo o imagenes que te gustaría que utilizaramos para tu sitio te las solicitaremos ya que hayas realizado el pago.</label>
 <div class="container"><div class="col6 resultado">&nbsp;</div><div class="col6">
+
+<button type="submit" class="btn">SOLICITAR PROMOCIÓN</button>
 <label>Al dar click en el botón de "SOLICITAR PROMOCIÓN" aceptar estar de acuerdo con los <strong>Detalles de las características</strong>.</label>
-<button type="submit" class="btn">SOLICITAR PROMOCIÓN</button></div></div>
+</div></div>
 
 </form>
 
