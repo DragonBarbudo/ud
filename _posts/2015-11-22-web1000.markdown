@@ -67,16 +67,16 @@ Si ya te animaste a tener tu sitio web te invitamos a que llenes el siguiente fo
 </div><div class="col6 col-t12 col-m12">
 <p>Detalle de las características</p>
 <p class="small"><strong>Navegación en una sola página.</strong> El sitio es desarrollado con un solo documento (ver ejemplos), mismo que puede contener hasta 5 secciones distintas (ej. Inicio, Nosotros, Servicios, Contacto).</p>
-<p class="small"><strong>Diseño según empresa.</strong> No utilizamos plantillas, por lo que desarrollaremos un diseño y te lo enviaremos para su aprobación. Sobre este diseño únicamente se podrán realizar cambios sencillos que no afecten a su estructura. En caso de solicitar un nuevo diseño se deberá pagar una tarifa extra de $500.</p>
+<p class="small"><strong>Diseño según empresa.</strong> No utilizamos plantillas, por lo que desarrollaremos un diseño y te lo enviaremos para aprobación. Sobre este diseño únicamente se podrán realizar hasta 5 cambios sencillos que no afecten a su estructura (cambio de títulos, cambio de imagenes, cambio de colores...). En caso de solicitar un nuevo diseño se deberá pagar una tarifa extra de $500.</p>
 <p class="small"><strong>Dominio y hospedaje por 1 año.</strong> El dominio podrá ser de tipo <strong>.com</strong> o <strong>.com.mx</strong> y tanto éste como el hospedaje deberá ser renovado anualmente. El costo de renovación anual es aproximado a 30 dólares y se comienza a pagar a partir de que se cumpla el primer año.</p>
 <p class="small"><strong>2 cuentas de correo.</strong> Los correos electrónicos funcionan mediante servidores de ZohoMail y cuentan con acceso a servicios de ZohoDocs. Cada cuenta tiene 5gb de espacio disponible y corresponderán al nombre de dominio elegido. Por ej. usuario@midomonio.com .</p>
 <p class="small"><strong>Formulario de contacto.</strong> El formulario contiene los campos "Nombre, Correo electrónico, Teléfono, Mensaje" y llegarán al correo electrónico elegido por el usuario.</p>
-<p class="small"><strong>Ayuda con los contenidos.</strong> Si no se tienen textos redactados nosotros proveeremos ayuda con la redacción de estos a partir de las ideas que el cliente plasme en el formulario de solicitud.</p>
+<p class="small"><strong>Ayuda con los contenidos.</strong> Si no se tienen textos redactados nosotros proveeremos ayuda con la redacción de estos a partir de las ideas que el cliente plasme en el formulario de solicitud (1 cuartilla máx.).</p>
 <p class="small"><strong>3 imagenes de stock.</strong> Acorde con el diseño se elegirán imagenes de stock que refuercen la visualización del sitio, ya sea para servicios, productos o como medios decorativos.</p>
-<p class="small"><strong>Versión Móvil, Tableta y Escritorio.</strong> El sitio se adaptara mediante la técnica de "Responsive" para los distintos dispositivos, haciéndola compatible para cualquier tipo de visitante.</p>
-<p class="small"><strong>Mapa de ubicación.</strong> Si se tiene una dirección física se podrá añadir un mapa de GoogleMaps o de otro proveedor para referenciar a los usuarios hacia la dirección de la empresa.</p>
+<p class="small"><strong>Versión Móvil, Tableta y Escritorio.</strong> El sitio se adaptara mediante la técnica "Responsive" para los distintos dispositivos, haciéndola compatible para cualquier tipo de visitante.</p>
+<p class="small"><strong>Mapa de ubicación.</strong> Se podrá añadir un mapa de GoogleMaps para referenciar a los usuarios hacia la dirección de la empresa.</p>
 <p class="small"><strong>Alta en buscadores.</strong> Se da de alta en los buscadores Google, Bing y Yahoo mediante sus métodos individuales.</p>
-<p class="small"><strong>Desarrollo en 1 semana o menos.</strong> El tiempo estimado de desarrollo es de 1 día para diseño a partir del pago y de 4 para programación y montaje del sitio, sin embargo, los tiempos pueden variar hasta en 1 semana.</p>
+<p class="small"><strong>Desarrollo en 1 semana o menos.</strong> El tiempo estimado de desarrollo es de 1 día para diseño a partir del pago y de 4 para programación y montaje del sitio, sin embargo, los tiempos pueden variar hasta en 1 o 2 semanas en caso de solicitar modificaciones.</p>
 <p class="small">Una vez montado el sitio cualquier cambio que se desee realizar será con un costo extra.</p>
 
 </div></div>

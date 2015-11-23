@@ -1619,7 +1619,7 @@ h1.main {
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   background: #f5f5f5;
-  color: #424041;
+  color: #424041 !important;
 }
 #blogLatest a.post:hover p,
 #blogLatest a.post:hover h3 {
