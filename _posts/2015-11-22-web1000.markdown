@@ -40,14 +40,19 @@ Si ya te animaste a tener tu sitio web te invitamos a que llenes el siguiente fo
 <input type="hidden" name="_to" value="urge@urgenciasdigitales.space">
 <input type="hidden" name="_from" value="urge@urgenciasdigitales.space">
 <input type="hidden" name="_subject" value="PROMO WEB1000">
-
-<input type="text" name="Nombre" placeholder="Tu nombre" ng-model="datos.cliente.nombre">
-<input type="email" name="Correo" placeholder="Correo electrónico" ng-model="datos.cliente.email">
-<input type="text" name="Tel" placeholder="Telefono" ng-model="datos.cliente.telefono">
-<input type="text" name="Otro" placeholder="Otro" ng-model="datos.cliente.otro">
-
-<button ng-show="datos.cliente.nombre" type="submit" class="btn next">SOLICITAR PROMOCIÓN</button>
+<input type="text" name="Nombre" placeholder="Tu nombre">
+<input type="email" name="Correo" placeholder="Correo electrónico">
+<input type="text" name="Tel" placeholder="Telefono">
+<label>Datos del sitio web</label>
+<input type="text" name="Dominio" placeholder="Dominio deseado .com o .com.mx">
+<input type="text" name="Site_Nombre" placeholder="Nombre de la empresa">
+<input type="text" name="Site_Slogan" placeholder="Slogan de la empresa">
+<input type="text" name="Site_Nombre" placeholder="Nombre de la empresa">
+<textarea name="Site_Info", placeholder="Información sobre la empresa: Servicios, productos, misión, visión, etc."></textarea>
+<label>Una vez que envies el formulario con la información te haremos llegar la solicitud de pago mediante PayPal. Si tienes cuenta coloca tu usuario en el siguiente campo para enviar la solicitud directamente.</label>
+<input type="text" name="Paypal" placeholder="Usuario de PayPal | Opcional">
+<buttontype="submit" class="btn next">SOLICITAR PROMOCIÓN</button>
 </form>
 
 
-Si tienes cualquier duda puedes preguntarnos a través del área de comentarios, en nuestras redes sociales o  través del correo [mailto:urge@urgenciasdigitales.space](http://urge@urgenciasdigitales.space)
+Si tienes cualquier duda puedes preguntarnos a través del área de comentarios, en nuestras redes sociales o  través del correo <a href="mailto:urge@urgenciasdigitales.space">urge@urgenciasdigitales.space</a>
