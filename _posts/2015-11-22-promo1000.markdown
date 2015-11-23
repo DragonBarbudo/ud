@@ -6,7 +6,7 @@ tags: promoción, sitio, web, descuento, mil, 1000,
 description: "Tu sitio web a solo $1000. Vigencia 25 de Noviembre."
 ---
 
-![Promoción 1000](http://)
+![Promoción 1000](http://urgenciasdigitales.space/promo/promo1000.png)
 
 
 Gracias por visitarnos. Te invitamos a seguirnos a través de nuestras **redes sociales** y a dejarte cuidar con **nuestros servicios**.
