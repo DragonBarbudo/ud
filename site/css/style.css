@@ -1092,6 +1092,10 @@ code {
 }
 .btn.small {
   padding: 0 4px;
+  font-weight: 300;
+}
+.btn.small strong {
+  font-weight: 700;
 }
 .btn.vbottom {
   vertical-align: bottom;
@@ -1748,6 +1752,10 @@ footer #footericons button:hover {
 }
 #blog #content img {
   max-width: 100%;
+}
+#blog #content input,
+#blog #content textarea {
+  font-size: 1em;
 }
 .social-likes {
   display: block !important;
