@@ -8,10 +8,13 @@ postimg: "http://urgenciasdigitales.space/promo/promo-web-1000.png"
 ---
 
 ![Promoción 1000](http://urgenciasdigitales.space/promo/promo-web-1000.png)
+ 
 
 Estamos ofreciendo esta promoción **express** para los emprendedores que aún no cuentan con su **sitio web**. Por sólo **$1000** (MXN) podrán disfrutar de un sitio web más que completo, con las últimas especificaciones técnicas y compatibilidad multiplataforma.
 
 Las características del sitio web son:
+
+<div class="container">
 
 - Navegación en una sola página
 - Diseño según empresa (no plantilla)
@@ -24,6 +27,18 @@ Las características del sitio web son:
 - Mapa de ubicación
 - Alta en buscadores
 - Desarrollo en 1 semana o menos
+</div>
+<div class="container">
+## ¡Date prisa!
+- Sólo estan disponibles 6 sitios web.
+- Vigencia al Miércoles 25 de noviembre de 2015.
+</div>
+
+Solo queda <div data-countdown="2015/11/26"></div>
+
+
+
+Si ya te animaste a tener tu sitio web te invitamos a que llenes el siguiente formulario.
 
 
 
