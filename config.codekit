@@ -323,6 +323,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/promo\/web1000_landscape.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 137072,
+		"inputAbbreviatedPath": "\/_site\/promo\/web1000_landscape.png",
+		"outputAbbreviatedPath": "\/_site\/promo\/web1000_landscape.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/promo\/web1000_portrait.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 131216,
+		"inputAbbreviatedPath": "\/_site\/promo\/web1000_portrait.png",
+		"outputAbbreviatedPath": "\/_site\/promo\/web1000_portrait.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/promo\/web1000_square.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155734,
+		"inputAbbreviatedPath": "\/_site\/promo\/web1000_square.png",
+		"outputAbbreviatedPath": "\/_site\/promo\/web1000_square.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/site\/css\/style.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -744,6 +777,39 @@
 		"initialSize": 38822,
 		"inputAbbreviatedPath": "\/promo\/promo-web-1000.png",
 		"outputAbbreviatedPath": "\/promo\/promo-web-1000.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/promo\/web1000_landscape.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 137072,
+		"inputAbbreviatedPath": "\/promo\/web1000_landscape.png",
+		"outputAbbreviatedPath": "\/promo\/web1000_landscape.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/promo\/web1000_portrait.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 131216,
+		"inputAbbreviatedPath": "\/promo\/web1000_portrait.png",
+		"outputAbbreviatedPath": "\/promo\/web1000_portrait.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/promo\/web1000_square.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155734,
+		"inputAbbreviatedPath": "\/promo\/web1000_square.png",
+		"outputAbbreviatedPath": "\/promo\/web1000_square.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
