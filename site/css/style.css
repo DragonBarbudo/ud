@@ -1576,6 +1576,8 @@ h1.main {
 }
 #blogLatest h2 {
   padding: 20px 0;
+  text-align: right;
+  margin: 10px 0;
 }
 #blogLatest a.post {
   display: block;
@@ -1690,8 +1692,6 @@ footer #footericons button:hover {
 }
 #blog h2 {
   font-size: 1.2em;
-  text-align: right;
-  margin: 10px 0;
 }
 #blog ul {
   list-style: square;
