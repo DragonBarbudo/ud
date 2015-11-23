@@ -1693,6 +1693,12 @@ footer #footericons button:hover {
   text-align: right;
   margin: 10px 0;
 }
+#blog a {
+  color: #f5f5f5;
+}
+#blog img {
+  max-width: 100%;
+}
 #blog .otherposts {
   list-style: none;
   text-align: right;

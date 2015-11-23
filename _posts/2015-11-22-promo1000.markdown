@@ -2,12 +2,28 @@
 layout: blog
 title: Promoción web a $1000
 permalink: tu-web-a-1000
-tags: promoción, sitio, web, descuento, mil, 1000,
+tags: promoción, sitio, web, descuento, mil, 1000, emprendedor 
 description: "Tu sitio web a solo $1000. Vigencia 25 de Noviembre."
+postimg: "http://urgenciasdigitales.space/promo/promo-web-1000.png"
 ---
 
 ![Promoción 1000](http://urgenciasdigitales.space/promo/promo-web-1000.png)
 
+Estamos ofreciendo esta promoción **express** para los emprendedores que aún no cuentan con su **sitio web**. Por sólo **$1000** (MXN) podrán disfrutar de un sitio web más que completo, con las últimas especificaciones técnicas y compatibilidad multiplataforma.
+
+Las características del sitio web son:
+
+- Navegación en una sola página
+- Diseño según empresa (no plantilla)
+- Con dominio y hospedaje por 1 año
+- 2 cuentas de correo
+- Formulario de contacto
+- Te ayudamos con los contenidos
+- 3 imagenes de stock
+- Versión Móvil, Tableta y Escritorio.
+- Mapa de ubicación
+- Alta en buscadores
+- Desarrollo en 1 semana o menos
 
 
 
