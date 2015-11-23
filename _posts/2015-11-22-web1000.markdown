@@ -12,8 +12,7 @@ postimg: "http://urgenciasdigitales.space/promo/promo-web-1000.png"
 
 Estamos ofreciendo esta promoción **express** para los emprendedores que aún no cuentan con su **sitio web**. Por sólo **$1000** (MXN) podrán disfrutar de un sitio web más que completo, con las últimas especificaciones técnicas y compatibilidad multiplataforma.
 
-Las características del sitio web son:
-
+## Las características del sitio son:
 
 - Navegación en una sola página
 - Diseño según empresa (no plantilla)
@@ -27,21 +26,28 @@ Las características del sitio web son:
 - Alta en buscadores
 - Desarrollo en 1 semana o menos
 
-
 ## ¡Date prisa!
 - Sólo estan disponibles 6 sitios web.
 - Vigencia al Miércoles 25 de noviembre de 2015.
-
 
 ## La promoción finaliza en
 
 <div data-countdown="2015/11/26"></div>
 
-
-
 Si ya te animaste a tener tu sitio web te invitamos a que llenes el siguiente formulario.
 
+<form action="https://dragonbarbudo.com/api/email.php" method="get" class="simple">
+<input type="hidden" name="_to" value="urge@urgenciasdigitales.space">
+<input type="hidden" name="_from" value="urge@urgenciasdigitales.space">
+<input type="hidden" name="_subject" value="PROMO WEB1000">
+
+<input type="text" name="Nombre" placeholder="Tu nombre" ng-model="datos.cliente.nombre">
+<input type="email" name="Correo" placeholder="Correo electrónico" ng-model="datos.cliente.email">
+<input type="text" name="Tel" placeholder="Telefono" ng-model="datos.cliente.telefono">
+<input type="text" name="Otro" placeholder="Otro" ng-model="datos.cliente.otro">
+
+<button ng-show="datos.cliente.nombre" type="submit" class="btn next">SOLICITAR PROMOCIÓN</button>
+</form>
 
 
-
-[Visita nuestro sitio web](http://urgenciasdigitales.space)
+Si tienes cualquier duda puedes preguntarnos a través del área de comentarios, en nuestras redes sociales o  través del correo [mailto:urge@urgenciasdigitales.space](http://urge@urgenciasdigitales.space)
