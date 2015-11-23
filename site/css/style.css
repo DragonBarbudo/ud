@@ -1753,8 +1753,8 @@ footer #footericons button:hover {
 #blog #content img {
   max-width: 100%;
 }
-#blog #content input,
-#blog #content textarea {
+#blog input,
+#blog textarea {
   font-size: 1em;
 }
 .social-likes {
