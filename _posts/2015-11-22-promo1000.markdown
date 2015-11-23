@@ -14,6 +14,7 @@ Estamos ofreciendo esta promoción **express** para los emprendedores que aún n
 
 Las características del sitio web son:
 
+<div class="container"><div class="col6">
 
 - Navegación en una sola página
 - Diseño según empresa (no plantilla)
@@ -28,12 +29,15 @@ Las características del sitio web son:
 - Desarrollo en 1 semana o menos
 
 
-## ¡Date prisa!
+</div><div class="col6">
+
+### ¡Date prisa!
 - Sólo estan disponibles 6 sitios web.
 - Vigencia al Miércoles 25 de noviembre de 2015.
 
+</div></div>
 
-Solo queda
+### La promoción finaliza en
 
 <div data-countdown="2015/11/26"></div>
 
