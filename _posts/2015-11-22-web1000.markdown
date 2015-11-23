@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Promoción web a $1000
-permalink: tu-web-a-1000
+permalink: web1000
 tags: promoción, sitio, web, descuento, mil, 1000, emprendedor 
 description: "Tu sitio web a solo $1000. Vigencia 25 de Noviembre."
 postimg: "http://urgenciasdigitales.space/promo/promo-web-1000.png"
