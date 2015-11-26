@@ -13,15 +13,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/_layouts\/blog.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_layouts\/blog.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/dw\/docs.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -319,6 +310,39 @@
 		"initialSize": 38822,
 		"inputAbbreviatedPath": "\/_site\/promo\/promo-web-1000.png",
 		"outputAbbreviatedPath": "\/_site\/promo\/promo-web-1000.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/promo\/web1000-ext_landscape.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 143210,
+		"inputAbbreviatedPath": "\/_site\/promo\/web1000-ext_landscape.png",
+		"outputAbbreviatedPath": "\/_site\/promo\/web1000-ext_landscape.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/promo\/web1000-ext_portrait.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 140551,
+		"inputAbbreviatedPath": "\/_site\/promo\/web1000-ext_portrait.png",
+		"outputAbbreviatedPath": "\/_site\/promo\/web1000-ext_portrait.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/promo\/web1000-ext_square.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 165422,
+		"inputAbbreviatedPath": "\/_site\/promo\/web1000-ext_square.png",
+		"outputAbbreviatedPath": "\/_site\/promo\/web1000-ext_square.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -750,15 +774,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -777,6 +792,39 @@
 		"initialSize": 38822,
 		"inputAbbreviatedPath": "\/promo\/promo-web-1000.png",
 		"outputAbbreviatedPath": "\/promo\/promo-web-1000.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/promo\/web1000-ext_landscape.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 143210,
+		"inputAbbreviatedPath": "\/promo\/web1000-ext_landscape.png",
+		"outputAbbreviatedPath": "\/promo\/web1000-ext_landscape.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/promo\/web1000-ext_portrait.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 140551,
+		"inputAbbreviatedPath": "\/promo\/web1000-ext_portrait.png",
+		"outputAbbreviatedPath": "\/promo\/web1000-ext_portrait.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/promo\/web1000-ext_square.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 165422,
+		"inputAbbreviatedPath": "\/promo\/web1000-ext_square.png",
+		"outputAbbreviatedPath": "\/promo\/web1000-ext_square.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
