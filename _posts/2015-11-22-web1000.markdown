@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Promoción web a $1000
+title: Promoción web a $1000 EXTENDIDA
 permalink: web1000
 tags: promoción, sitio, web, descuento, mil, 1000, emprendedor 
 description: "Tu sitio web a solo $1000. Vigencia 25 de Noviembre."
@@ -39,11 +39,12 @@ Estamos ofreciendo esta promoción **express** para los emprendedores que aún n
 
 ## ¡Date prisa!
 - Sólo estan disponibles 6 sitios web.
-- Vigencia al Miércoles 25 de noviembre de 2015.
+- Vigencia al ~~Miércoles 25 de noviembre~~ de 2015.
+- PROMOCIÓN EXTENDIDA HASTA EL 28 DE NOVIEMBRE.
 
 ## La promoción finaliza en
 
-<div data-countdown="2015/11/26"></div>
+<div data-countdown="2015/11/29"></div>
 
 Si ya te animaste a tener tu sitio web te invitamos a que llenes el siguiente formulario.
 
