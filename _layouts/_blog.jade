@@ -39,7 +39,7 @@ include ../site/_config.jade
           div(data-svg="{{site.url}}/site/img/beatline.svg")#beatline
       
       .container#comments
-        .col12.col-m10.push-m1
+        .col6.col-m12
           #disqus_thread
           script.
             var disqus_config = function () {
@@ -52,5 +52,7 @@ include ../site/_config.jade
             s.setAttribute('data-timestamp', +new Date());
             (d.head || d.body).appendChild(s);
             })();
+        .col6.col-m12
+          | <div class="fb-comments" data-href="http://developers.facebook.com/docs/plugins/comments/" data-width="400" data-numposts="4"></div>
     +footer
     +scripts
