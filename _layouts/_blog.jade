@@ -53,6 +53,6 @@ include ../site/_config.jade
             (d.head || d.body).appendChild(s);
             })();
         .col6.col-m12
-          | <div class="fb-comments" data-href="http://developers.facebook.com/docs/plugins/comments/" data-width="400" data-numposts="4"></div>
+          | <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="400" data-numposts="4"></div>
     +footer
     +scripts
