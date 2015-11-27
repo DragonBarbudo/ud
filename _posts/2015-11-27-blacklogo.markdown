@@ -40,15 +40,15 @@ Para solicitar tu promoción de logotipo llena los siguientes datos:
 <form action="https://dragonbarbudo.com/api/email.php" method="get" class="simple">
 <input type="hidden" name="_to" value="urge@urgenciasdigitales.space">
 <input type="hidden" name="_from" value="urge@urgenciasdigitales.space">
-<input type="hidden" name="_subject" value="PROMO WEB1000">
-<input type="text" name="Nombre" placeholder="Tu nombre">
-<input type="email" name="Correo" placeholder="Correo electrónico">
+<input type="hidden" name="_subject" value="Promo BLACKLOGO">
+<input type="text" name="Nombre" placeholder="Tu nombre" required>
+<input type="email" name="Correo" placeholder="Correo electrónico" required>
 <input type="text" name="Tel" placeholder="Telefono">
 <div class="container"><div class="col6 col-t12 col-m12">
 <p>Datos de tu empresa o proyecto:</p>
-<input type="text" name="Pr_Nombre" placeholder="Nombre">
+<input type="text" name="Pr_Nombre" placeholder="Nombre" required>
 <input type="text" name="Pr_Slogan" placeholder="¿Tienes un slogan?">
-<input type="text" name="Pr_Giro" placeholder="Giro de la empresa">
+<input type="text" name="Pr_Giro" placeholder="Giro de la empresa" required>
 <textarea rows="6" name="Pr_Info" placeholder="Platícanos sobre tu negocio o proyecto. ¿A qué se dedican?, ¿Quién es su competencia?."></textarea>
 <textarea rows="6" name="Pr_Que" placeholder="¿Qué te gustaría que reflejara tu logotipo?"></textarea>
 <textarea rows="6" name="Pr_Colores" placeholder="¿Tienes colores o ideas que te gustaría estuvieran plasmados en el logotipo?"></textarea>
@@ -56,9 +56,18 @@ Para solicitar tu promoción de logotipo llena los siguientes datos:
 <p>Detalle de las características</p>
 
 
-<p class="small"><strong>Navegación en una sola página.</strong> El sitio es desarrollado con un solo documento (ver ejemplos), mismo que puede contener hasta 5 secciones distintas (ej. Inicio, Nosotros, Servicios, Contacto).</p>
-<p class="small"><strong>Diseño según empresa.</strong> No utilizamos plantillas, por lo que desarrollaremos un diseño y te lo enviaremos para aprobación. Sobre este diseño únicamente se podrán realizar hasta 5 cambios sencillos que no afecten a su estructura (cambio de títulos, cambio de imagenes, cambio de colores...). En caso de solicitar un nuevo diseño se deberá pagar una tarifa extra de $500.</p>
-<p class="small"><strong>Dominio y hospedaje por 1 año.</strong> El dominio podrá ser de tipo <strong>.com</strong> o <strong>.com.mx</strong> y tanto éste como el hospedaje deberá ser renovado anualmente. El costo de renovación anual es aproximado a 30 dólares y se comienza a pagar a partir de que se cumpla el primer año.</p>
+<p class="small"><strong>Logotipo.</strong>
+  Te entregaremos hasta 2 propuestas distintas basadas en las indicaciones enviadas en el formulario. Sobre esas propuestas podrás elegir 1 a la que realizaremos 3 cambios máximo.
+</p>
+<p class="small"><strong>Tarjetas de presentación.</strong>
+  Ya que el logotipo este aceptado realizaremos el diseño de la tarjeta a color con dos caras. Se podrán hacer hasta 3 versiones de tarjeta con los distintos nombres de tus colaboradores. Se te entregarán en registro CMYK para enviar a impresión.
+</p>
+<p class="small"><strong>Kit de imagenes para redes sociales.</strong>
+  Se crean imagenes que pueden ser utilizadas como plantilla con tu identidad, tus datos básicos de contacto y dejándo un área libre para que coloques tu contenido. No incluímos la colocación de contenido o edición de estas imágenes posterior a la entrega. Las imagenes son para redes sociales Twitter, Facebook y LinkedIn, incluyendo imagenes de Perfil y de Stream.
+</p>
+<p class="small"><strong>Tramado con tu identidad.</strong>
+  El tramado se genera en base a tu logotipo y funciona para utilizarlo en fondos o aspectos decorativos de tu publicidad futura.
+</p>
 
 </div></div>
 <label>Una vez que envies el formulario con la información te haremos llegar la solicitud de pago mediante PayPal. Si tienes cuenta coloca tu usuario en el siguiente campo para enviar la solicitud directamente.</label>
