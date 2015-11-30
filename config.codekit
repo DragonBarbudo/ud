@@ -374,6 +374,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/promo\/cyberlogo_square.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116350,
+		"inputAbbreviatedPath": "\/_site\/promo\/cyberlogo_square.png",
+		"outputAbbreviatedPath": "\/_site\/promo\/cyberlogo_square.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/promo\/promo-web-1000.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -905,6 +916,17 @@
 		"initialSize": 184268,
 		"inputAbbreviatedPath": "\/promo\/blacklogo_square.png",
 		"outputAbbreviatedPath": "\/promo\/blacklogo_square.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/promo\/cyberlogo_landscape.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83820,
+		"inputAbbreviatedPath": "\/promo\/cyberlogo_landscape.png",
+		"outputAbbreviatedPath": "\/promo\/cyberlogo_landscape.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
