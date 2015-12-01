@@ -301,6 +301,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/flyernavidad.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/flyernavidad.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/googlea15271f73303aae3.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -374,6 +383,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/promo\/cyberlogo_landscape.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83820,
+		"inputAbbreviatedPath": "\/_site\/promo\/cyberlogo_landscape.png",
+		"outputAbbreviatedPath": "\/_site\/promo\/cyberlogo_landscape.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/promo\/cyberlogo_square.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -381,6 +401,39 @@
 		"initialSize": 116350,
 		"inputAbbreviatedPath": "\/_site\/promo\/cyberlogo_square.png",
 		"outputAbbreviatedPath": "\/_site\/promo\/cyberlogo_square.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/promo\/flyernavidad_landscape.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 181054,
+		"inputAbbreviatedPath": "\/_site\/promo\/flyernavidad_landscape.png",
+		"outputAbbreviatedPath": "\/_site\/promo\/flyernavidad_landscape.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/promo\/flyernavidad_portrait.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 208994,
+		"inputAbbreviatedPath": "\/_site\/promo\/flyernavidad_portrait.png",
+		"outputAbbreviatedPath": "\/_site\/promo\/flyernavidad_portrait.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/promo\/flyernavidad_square.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 263800,
+		"inputAbbreviatedPath": "\/_site\/promo\/flyernavidad_square.png",
+		"outputAbbreviatedPath": "\/_site\/promo\/flyernavidad_square.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -938,6 +991,39 @@
 		"initialSize": 116350,
 		"inputAbbreviatedPath": "\/promo\/cyberlogo_square.png",
 		"outputAbbreviatedPath": "\/promo\/cyberlogo_square.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/promo\/flyernavidad_landscape.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 181054,
+		"inputAbbreviatedPath": "\/promo\/flyernavidad_landscape.png",
+		"outputAbbreviatedPath": "\/promo\/flyernavidad_landscape.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/promo\/flyernavidad_portrait.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 208994,
+		"inputAbbreviatedPath": "\/promo\/flyernavidad_portrait.png",
+		"outputAbbreviatedPath": "\/promo\/flyernavidad_portrait.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/promo\/flyernavidad_square.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 263800,
+		"inputAbbreviatedPath": "\/promo\/flyernavidad_square.png",
+		"outputAbbreviatedPath": "\/promo\/flyernavidad_square.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
