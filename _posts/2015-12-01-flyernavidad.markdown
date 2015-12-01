@@ -63,8 +63,7 @@ Para solicitar tu regalo de flyer digital llena los siguientes datos:
 
 
 </div></div>
-<label>Una vez que envies el formulario con la información te haremos llegar un correo con la notificación si es que entraste entre los 10 clientes que recibirán el flyer gratuito.</label>
-<label>Si tienes logotipo o imagenes que te gustaría que utilizaramos para tu flyer te las solicitaremos ya que hayas sido notificado.</label>
+<label>Una vez que envies el formulario con la información te haremos llegar un correo con la notificación si es que entraste entre los 10 clientes que recibirán el flyer gratuito. Si tienes logotipo o imagenes que te gustaría que utilizaramos para tu flyer te las solicitaremos ya que hayas sido notificado.</label>
 <div class="container"><div class="col6 resultado">&nbsp;</div><div class="col6">
 
 <button type="submit" class="btn">SOLICITAR PROMOCIÓN</button>
