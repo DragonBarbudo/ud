@@ -40,12 +40,11 @@ Para solicitar tu regalo de flyer digital llena los siguientes datos:
 <div class="container"><div class="col6 col-t12 col-m12">
 
 <input type="hidden" name="_to" value="urge@urgenciasdigitales.space">
-<input type="hidden" name="_from" value="urge@urgenciasdigitales.space">
-<input type="hidden" name="_subject" value="Promo BLACKLOGO">
+<input type="hidden" name="_subject" value="Flyer Gratis">
 <input type="text" name="Nombre" placeholder="Tu nombre" required>
-<input type="email" name="Correo" placeholder="Correo electrónico" required>
+<input type="email" name="_from" placeholder="Correo electrónico" required>
 <input type="text" name="Tel" placeholder="Telefono">
-<input type="text" name="Tel" placeholder="Perfil de Facebook">
+<input type="text" name="Perfil" placeholder="Perfil de Facebook">
 <label>Cotejaremos con tu perfil que hayas dado Me Gusta en nuestra FanPage y hayas compartido la publicación.</label>
 </div><div class="col6 col-t12 col-m12">
 <p>Detalle de las características</p>
