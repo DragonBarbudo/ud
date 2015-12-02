@@ -9,6 +9,7 @@ postimg: "http://urgenciasdigitales.space/promo/como-proteger-mi-trabajo.png"
 
 ![Tu logo a $800](http://urgenciasdigitales.space/promo/como-proteger-mi-trabajo.png)
 
+
 No importa si eres diseñador, programador, escritor, ilustrador o creativo, tienes ideas y debes protegerlas. Aunque todos los que hemos pasado por los tediosos (y costosos) procesos de registro mediante la instancia de gobierno sabemos que hay un alto riesgo de terminar resignándonos a protegernos debido a que siempre falta el tiempo y paciencia para poder lograr esos trámites.
 
 Nosotros los "creadores de contenido" estamos interesados en métodos veloces y que nos proporcionen seguridad ante la adversidad de la vida, por lo que necesitamos un sistema... servicio... amigo... que nos permita seguir trabajando sin tener miedo a la pérdida de los derechos de nuestras obras.
