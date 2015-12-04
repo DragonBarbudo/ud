@@ -1,9 +1,9 @@
 ---
 layout: blog
-title: Ya sé hacer sitios web, ahora ¿cómo los publico? | Parte 1
+title: Ya sé hacer sitios web, ahora ¿cómo los publico?
 permalink: publicar-mi-sitio-parte-1
-tags: promoción, flyer, navidad, gratis
-description: "Protege tu trabajo gracias a Safe Creative"
+tags: sitio_web, dominios, paginas, web
+description: "¿Qué sigue después de diseñar y programar un sitio web?"
 postimg: "http://urgenciasdigitales.space/promo/como-publicar-sitio/publicar-sitio.png"
 ---
 
