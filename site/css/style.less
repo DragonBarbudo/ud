@@ -468,16 +468,20 @@ footer{
     }
   }
   #content{
+    background: @w;
+    color:@g;
     position: relative;
     #beatline{
       position: static;
       margin: 40px auto;
     }
     p{
+      color:@g;
       margin: 10px 0;
       &.small{ font-size: 0.8em;}
     }
     ul{
+      color:@g;
       list-style: square;
       list-style-position: inside;
       padding-left: 10px;
@@ -485,7 +489,7 @@ footer{
       .font;
       font-weight: 300;
     }
-    a{color:@w;}
+    a{color:@w; background: @main; padding: 5px;}
     img{max-width: 100%;}
 
   }
@@ -501,7 +505,7 @@ footer{
 
 
 [data-countdown]{
-  color:@w;
+  color:@main;
   text-align: center;
   .font;
   font-weight: 300;

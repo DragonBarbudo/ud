@@ -1727,6 +1727,8 @@ footer #footericons button:hover {
   background: #f5f5f5;
 }
 #blog #content {
+  background: #f5f5f5;
+  color: #888;
   position: relative;
 }
 #blog #content #beatline {
@@ -1734,12 +1736,14 @@ footer #footericons button:hover {
   margin: 40px auto;
 }
 #blog #content p {
+  color: #888;
   margin: 10px 0;
 }
 #blog #content p.small {
   font-size: 0.8em;
 }
 #blog #content ul {
+  color: #888;
   list-style: square;
   list-style-position: inside;
   padding-left: 10px;
@@ -1749,6 +1753,8 @@ footer #footericons button:hover {
 }
 #blog #content a {
   color: #f5f5f5;
+  background: #F74F4C;
+  padding: 5px;
 }
 #blog #content img {
   max-width: 100%;
@@ -1762,7 +1768,7 @@ footer #footericons button:hover {
   text-align: right;
 }
 [data-countdown] {
-  color: #f5f5f5;
+  color: #F74F4C;
   text-align: center;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
