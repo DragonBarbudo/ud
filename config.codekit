@@ -43,6 +43,27 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/_posts\/2015-12-04-publicar-mi-sitio-parte-1.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_posts\/2015-12-04-publicar-mi-sitio-parte-1.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/_posts\/2015-12-04-publicar-mi-sitio-parte-1.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
 	"\/_site\/blacklogo.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -420,6 +441,28 @@
 		"initialSize": 60753,
 		"inputAbbreviatedPath": "\/_site\/promo\/como-proteger-mi-trabajo.png",
 		"outputAbbreviatedPath": "\/_site\/promo\/como-proteger-mi-trabajo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/promo\/como-publicar-sitio\/domaintyper.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 175715,
+		"inputAbbreviatedPath": "\/_site\/promo\/como-publicar-sitio\/domaintyper.png",
+		"outputAbbreviatedPath": "\/_site\/promo\/como-publicar-sitio\/domaintyper.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/promo\/como-publicar-sitio\/publicar-sitio.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65822,
+		"inputAbbreviatedPath": "\/_site\/promo\/como-publicar-sitio\/publicar-sitio.png",
+		"outputAbbreviatedPath": "\/_site\/promo\/como-publicar-sitio\/publicar-sitio.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1032,6 +1075,17 @@
 		"initialSize": 175715,
 		"inputAbbreviatedPath": "\/promo\/como-publicar-sitio\/domaintyper.png",
 		"outputAbbreviatedPath": "\/promo\/como-publicar-sitio\/domaintyper.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/promo\/como-publicar-sitio\/publicar-sitio.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65822,
+		"inputAbbreviatedPath": "\/promo\/como-publicar-sitio\/publicar-sitio.png",
+		"outputAbbreviatedPath": "\/promo\/como-publicar-sitio\/publicar-sitio.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
